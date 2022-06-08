@@ -1,6 +1,6 @@
 body {
     background: rgb(129, 127, 127);
-}
+    }
 
 .navbar {
     height: 200px;
@@ -8,6 +8,11 @@ body {
     background-color: #111010;
     position: relative;
     background-image: url("../images/salad-4267061.jpg");
+    }
+
+        
+    .navbar-fixed-top {
+        position:fixed !important;
     }
 
   .navbar-brand {
@@ -22,7 +27,37 @@ body {
     .nav-link {
         font-size: 20px;
         font-family: 'Poppins', sans-serif;
-        me-auto;
+        
     }
     
-  
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 200px 4px 0px 4px;
+      }
+      
+      .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
