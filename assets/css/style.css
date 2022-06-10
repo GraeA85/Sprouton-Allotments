@@ -18,7 +18,7 @@ body {
   .navbar-brand {
     display: inline-block;
     font-size: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight:400;
     color: rgb(220, 228, 220);
     padding: 10px 10px 10px 10px
@@ -26,7 +26,8 @@ body {
 
     .nav-link {
         font-size: 20px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        color: rgb(220, 220, 220);
         
     }
     
@@ -75,7 +76,7 @@ body {
         background-repeat: no-repeat;
         background-position: center center;
         width: 50%;
-        height: 729px;
+        height: 728px;
         vertical-align: top;
         display: inline-block;
     }
@@ -132,4 +133,24 @@ body {
             height: 400px;
         }
         .form-container .form-horizontal{ width: 100%; }
+    }
+
+    .col-lg-4 {
+      padding: 50px;
+    }
+
+    h2 {
+      padding: 10px;
+    }
+
+    main i {
+      padding-left: 50px;
+    }
+
+    main p {
+      padding-top: 10px;
+    }
+
+    .rowbtn {
+      text-align:left
     }
