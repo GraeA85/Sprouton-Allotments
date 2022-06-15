@@ -1,8 +1,10 @@
 
-
+body {
+  background-color: blanchedalmond;
+}
 
 .navbar {
-    height: 200px;
+    height: 175px;
     width: 100%;
     background-color: #111010;
     position: relative;
@@ -18,37 +20,48 @@
 
   .navbar-brand {
     display: inline-block;
-    font-size: 40px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lobster', cursive;
     font-weight:400;
     color: rgb(220, 228, 220);
     padding: 10px 10px 10px 10px
+    
     }
 
     .nav-link {
-        font-size: 20px;
         font-family: 'Nunito', sans-serif;
         color: rgb(220, 220, 220);
+
         
     }
     
     .row {
         display: flex;
         flex-wrap: wrap;
-        padding: 200px 4px 0px 4px;
+        padding: 175px 4px 0px 4px;
+        justify-content: center;
       }
       
+      .col-lg-4 {
+        padding-top: 175px;
+      }
+
       .column {
         flex: 25%;
         max-width: 25%;
         padding: 0 4px;
       }
       
+      .featurette {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
       .column img {
         margin-top: 8px;
         vertical-align: middle;
         width: 100%;
       }
+      
       
       @media screen and (max-width: 800px) {
         .column {
@@ -145,7 +158,8 @@
     }
 
     main i {
-      padding-left: 50px;
+      padding-left: 120px;
+      
     }
 
     main p {
@@ -156,6 +170,15 @@
       text-align:left
     }
 
+    .fa-map {
+      padding-left: 70px;
+          }
+
+    
+   hr {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+      }  
 
     /* The Modal (background) */
 .modal {
@@ -178,7 +201,7 @@
   display: block;
   width: 80%;
   max-width: 700px;
-}
+  }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
@@ -226,4 +249,62 @@
   .modal-content {
     width: 100%;
   }
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: lime
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: lime;
+  }
+
+  .navbar {
+    --bs-navbar-brand-hover-color: lime;
+}
+
+@media screen and (min-width: 767px) {
+  .navbar-brand {
+    font-size: 70px;
+  }
+ 
+}
+
+.rowbtn {
+  text-align: center;
+}
+
+.fw-normal {
+  text-align: center;
+}
+
+.p-row {
+  text-align: justify;
+  padding-bottom: 30px;
+}
+
+.rowbtn {
+
+    color:#fff;
+    background:#4dae3c;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    padding: 8px 25px;
+    border: none;
+    transition: all .4s ease;
+}
+
+.modal-backdrop {
+  display: none;
+  z-index: 1040 !important;
+}
+
+.modal-content {
+  margin: 2px auto;
+  z-index: 1100 !important;
+}
+
+.modal-header {
+  background-color: blanchedalmond;
 }
