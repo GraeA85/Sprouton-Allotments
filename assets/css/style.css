@@ -249,6 +249,9 @@ body {
   padding-bottom: 20px;
 }
 
-.col-md-5 {
-  @media only screen and (min-width: 600px) {..}
+@media (max-width: 767px){
+  body .no-pm {
+      padding:0 !important;
+      margin:0 !important;
+  }
 }
