@@ -28,10 +28,9 @@ body {
     }
 
     .nav-link {
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Raleway', sans-serif;
         color: rgb(220, 220, 220);
-
-        
+        font-size:large;          
     }
     
     .row {
@@ -157,10 +156,7 @@ body {
       padding: 10px;
     }
 
-    main i {
-      padding-left: 120px;    
-    }
-  
+      
     main p {
       padding-top: 10px;
     }
@@ -249,9 +245,67 @@ body {
   padding-bottom: 20px;
 }
 
+/* CSS Styling for smaller screens */
+
 @media (max-width: 767px){
   body .no-pm {
-      padding:0 !important;
+      padding-left:0 !important;
       margin:0 !important;
   }
+  .fa-trowel {
+      padding-left: 100px;
+      padding-right: 100px;
+        font-size: 6em;
+  }
+  .fa-carrot {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 6em;
+
+  }
+  .fa-shop {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 6em;
+  }
+  .col-lg-4 {
+    padding-bottom: 0;
+    padding-top: 25px;
+  }
+.featurette {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
+.featurette-divider {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+  
+.nav-link {
+  font-size:medium;
+}
+
+.navbar-brand {
+  font-size: larger;
+}
+
+.lead {
+  font-size: 1rem;
+}
+
+.p-row {
+font-size: 1rem;
+}
+
+}
+
+h2 {
+  font-family: 'Raleway';
+    
+}
+
+p {
+  font-family: 'Raleway';
+}
+
+
