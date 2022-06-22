@@ -171,9 +171,10 @@ body {
 
     
    hr {
-    border-top: 8px solid #bbb;
+    border-top: 5px solid rgb(245, 240, 240);
     border-radius: 5px;
-      }  
+    opacity: 1;
+    }  
     
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
   color: lime
@@ -279,7 +280,7 @@ body {
 .featurette-divider {
   padding-bottom: 0px;
   margin-bottom: 0px;
-}
+  }
   
 .nav-link {
   font-size:medium;
@@ -297,6 +298,11 @@ body {
 font-size: 1rem;
 }
 
+iframe {
+height: 335px !important;
+width: 251.25px !important;
+}
+
 }
 
 h2 {
@@ -308,4 +314,7 @@ p {
   font-family: 'Raleway';
 }
 
-
+iframe {
+  height: 500px !important;
+  width: 500px !important;
+}
