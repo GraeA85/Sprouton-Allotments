@@ -24,7 +24,7 @@ body {
     font-weight:400;
     color: rgb(220, 228, 220);
     padding: 10px 10px 10px 10px;
-    font-size: 160%;
+    font-size: 2.8vw;
     
     }
 
@@ -62,6 +62,7 @@ body {
         width: 100%;
       }
       
+      /*image gallery media queries */
       
       @media screen and (max-width: 800px) {
         .column {
@@ -77,6 +78,8 @@ body {
         }
       }
       
+      /* Custom CSS for application form */
+
       .form-container {
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 0;
@@ -149,6 +152,8 @@ body {
         .form-container .form-horizontal{ width: 100%; }
     }
 
+    /*Custom CSS for home page */
+
     .col-lg-4 {
       padding: 50px;
     }
@@ -172,6 +177,8 @@ body {
     opacity: 1;
     }  
     
+    /* Custom CSS for Navigation Bar */
+
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
   color: lime
 }
@@ -184,18 +191,9 @@ body {
     --bs-navbar-brand-hover-color: lime;
 }
 
-@media screen and (min-width: 767px) {
-  .navbar-brand {
-    font-size: 70px;
-  }
- 
-}
+/* Custom CSS for homepage - modals */
 
-.rowbtn {
-  text-align: center;
-}
-
-.fw-normal {
+.rowbtn, .fw-normal {
   text-align: center;
 }
 
@@ -231,10 +229,6 @@ body {
      
 }
 
-.fa-person-digging {
-  text-align: right !important;
-}
-
 .fa-shop {
   padding-left: 55px;
 }
@@ -254,17 +248,12 @@ body {
       padding-left:0 !important;
       margin:0 !important;
   }
-  .fa-trowel {
+  .fa-trowel, .fa-carrot {
       padding-left: 100px;
       padding-right: 100px;
         font-size: 6em;
   }
-  .fa-carrot {
-    padding-left: 100px;
-    padding-right: 100px;
-    font-size: 6em;
-
-  }
+ 
   .fa-shop {
     padding-left: 70px;
     padding-right: 70px;
@@ -288,12 +277,8 @@ body {
 }
 
 
-.lead {
+.lead, .p-row {
   font-size: 1rem;
-}
-
-.p-row {
-font-size: 1rem;
 }
 
 }
@@ -318,11 +303,6 @@ iframe {
   width: 100%;
 }
 
-@media only screen and (max-width:768px) {
-  .navbar-brand {
-    max-width: 100px;
-  }
-  }
 
 .featurette-heading i {
   margin-left: 10px;
@@ -332,4 +312,61 @@ iframe {
   .container-fluid {
       width: auto;
   }
+  .nav-link, .nav-link-active {
+    padding: 6px 0px;
+  }
+}
+
+.navbar-toggler-collapsed {
+  color: white;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) { .navbar-brand, .navbar-toggler {
+  font-size: 4vw !important;
+  
+} 
+.navbar-nav i {display: none;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {.navbar-brand, .navbar-toggler {
+  font-size: 6vw !important;
+  
+}}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) { .navbar-brand, .navbar-toggler {
+  font-size: 6vw !important;
+  
+}}
+
+/* ipad Mini Portrait */
+@media only screen and (max-width:768px) and (resolution: 163dpi) {  .navbar-brand, .navbar-toggler {
+  font-size: 10vw !important;
+  
+}
+
+}
+
+/* ipad Mini Landscape */
+@media only screen and (max-width:1180px) and (resolution: 163dpi) {  .navbar-brand, .navbar-toggler {
+  font-size: 10vw !important;
+  }
+.navbar-nav i {display: none;
+}
+}
+
+.badge {
+  background: #4dae3c !important;
+}
+
+.modal-title {
+  font-family: "lobster";
+ }
+
+.modal-body {
+  font-family: "IBM Plex Sans" !important;
 }
