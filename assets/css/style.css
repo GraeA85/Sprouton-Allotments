@@ -228,6 +228,11 @@ body {
 
 .modal-header {
   background-color: blanchedalmond;
+     
+}
+
+.fa-person-digging {
+  text-align: right !important;
 }
 
 .fa-shop {
@@ -308,6 +313,11 @@ iframe {
   width: 500px !important;
 }
 
+.guide {
+  height: 100%;
+  width: 100%;
+}
+
 @media only screen and (max-width:768px) {
   .navbar-brand {
     max-width: 100px;
@@ -316,4 +326,10 @@ iframe {
 
 .featurette-heading i {
   margin-left: 10px;
+}
+
+@media(max-width: 767px) {
+  .container-fluid {
+      width: auto;
+  }
 }
