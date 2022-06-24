@@ -370,3 +370,27 @@ iframe {
 .modal-body {
   font-family: "IBM Plex Sans" !important;
 }
+
+#thumbs {   
+  width: 112.5px !important;
+  height: 122.5px !important;
+  
+  margin-left: auto !important; 
+  margin-right: auto !important;
+
+   text-align: justify !important;
+  -ms-text-justify: distribute-all-lines !important;
+  text-justify: distribute-all-lines !important;
+}
+#thumbs a {
+  vertical-align: top !important;
+  display: inline-block !important;
+  *display: inline !important;
+  zoom: 1 !important;
+}
+.stretch {
+  width: 100% !important;
+  display: inline-block !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
