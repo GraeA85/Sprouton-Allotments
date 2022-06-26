@@ -394,3 +394,9 @@ iframe {
   font-size: 0 !important;
   line-height: 0 !important;
 }
+
+li {
+  font-family: "IBM Plex Sans" !important;
+  font-style:normal !important;
+}
+
