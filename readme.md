@@ -1,6 +1,6 @@
 # Sprouton Allotments
 
-Sprouton Allotments are a community run allotment site for veteran and beginner allotmenteers to create, grow and showcase their garden and allotment sites. The website is targeted at existing Sprouton Allotment owners to keep up to date with allotment developments, as well as budding gardeners hoping to get their hands dirty and jump into an allotment of their own. The website is designed to inform people about the allotment site, what can be done with an allotment and place themselves on a waiting list for an allotment in the future. 
+Sproughton Allotments are a community run allotment site for veteran and beginner allotmenteers to create, grow and showcase their garden and allotment sites. The website is targeted at existing Sprouton Allotment owners to keep up to date with allotment developments, as well as budding gardeners hoping to get their hands dirty and jump into an allotment of their own. The website is designed to inform people about the allotment site, what can be done with an allotment and place themselves on a waiting list for an allotment in the future. 
 
 ## Features 
 
@@ -10,25 +10,30 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - The navigation bar is present across all three pages of the Sprouton Allotment webiste. It is fully responsive and includes links to the home page, image gallery and the allotment application page. The navigation bar is in a fixed position therefore always visible to the user when scrolling the page. This is effective UX design, preventing the user to have to scroll back to the top of the page manually, or rely on auto-scoll buttons placed on the website. The navigation bar shrinks to a "hamburger" icon and presents the links in a drop-down menu when the website is viewed on smaller screens such as a mobile phone. 
+  - The navigation bar is present across all three pages of the Sprouton Allotment webiste. It is fully responsive and includes links to the home page, image gallery and the allotment application page. The navigation bar is in a fixed position therefore always visible to the user when scrolling the page. This is effective UX design, preventing the user to have to scroll back to the top of the page manually, or rely on auto-scoll buttons placed on the website. The navigation bar shrinks to a "hamburger" icon and presents the links in a drop-down menu when the website is viewed on smaller screens such as a mobile phone or smaller tablet.
 
 
 - __The landing page__
 
-  - The landing page includes a photograph and an explanation of the Sprouton Allotment site, giving a brief history and overview of the allotment site. 
-  - This section introduces the user to Sprouton Allotments with an eye catching animation to grab their attention
-  - The landing page also includes a video created by the National Allotment Society which gives the user an overview of allotments and the benefits of owning one
+  - The landing is broken up into sections. The first section is "Our Allotment Story" giving the user some background and current information regarding the allotment site. It also includes an embedded google map to show the location of the Allotment Site. I have used font awesome icons relevant to each section (the story book icon to represent the background story of the allotment site).
+  The second section introduces the website visitor to the allotment committee - briefly explaining their role, names and contact information. I have included a photograph to allow existing site owners to recognise the committee members whenever they meet in person. This also gives new visitors to the site a prosepective of the owners and the mutual ideals of the allotment site. 
+  Each section is succinct as to give the user enough information without information overload.
+  The third section of the website is about the allotment site itself. Giving the website user information on the number of allotments available, the sizes available and other important details about the site. This is accompanied by an image of the allotment site layout which gives new users their bearings and existing owners a handy map. 
+  The fourth section gives the user information on the benefits of owning an allotment. I have included a video produced by the National Allotment Society, showcasing the benefits. This is included as to persuade new users to sign up for an allotment and remind existing owners just how good they have it!
+  
+  - The next section is split into three parts - a getting started equipment guide, a growing guide and a stock list of the on-site allotment shop. I have presented the equipment list and allotment shop as modals that open upon clicking the button. The growing guide links to an external pdf provided by a well-established gardening company with permission to use.
+
 
 
 - __Image Gallery__
 
   - The image gallery page includes photographs of the allotment site, produce grown on the allotment and other relevant photos designed to visually explain the allotment site and encourage people to join the waiting list. 
-  - Showing visitors the typical allotment setups will provide better understanding to embark on their allotment journey.
+  - The image are presented in a visually appealing grid box which is fully responsive. 
    
 
 - __Waiting list application  page__
 
-  - This page of the site allows the site visitor to apply to join the waiting list for Sprouton allotments. 
+  - This page of the site allows the site visitor to apply to join the waiting list for Sproughton allotments. It includes a relevant image (soil in a heart shape being held) with a form to gather the prospective owners information. The form and image are fully responsive. The form makes use of the "required" attribute to ensure all required information is inputted by the user. Once complete the user can click the submit button which will take the user to a "thank you" page. The thank you page is included to provide feedback to the user that their request has been acknowledged. The thank you page opens in a new browser tab to prevent the user losing their place on the main website - it also includes links to return to the homepage or further information on contacting the allotment site owners.
   
 - __Website Footer__
 
