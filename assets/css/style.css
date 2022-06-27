@@ -1,4 +1,11 @@
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
   background-color: whitesmoke
 }
@@ -9,8 +16,10 @@ body {
     background-color: #111010;
     position: relative;
     background-image: url("../images/salad-4267061.jpg");
-    filter: brightness(90%);
-    filter: grayscale(70%);
+    -webkit-filter: brightness(90%);
+            filter: brightness(90%);
+    -webkit-filter: grayscale(70%);
+            filter: grayscale(70%);
     }
 
         
@@ -29,16 +38,21 @@ body {
     }
 
     .nav-link {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'IBM Plex Sans', sans-serif;
         color: rgb(220, 220, 220);
         font-size:large;          
     }
     
     .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         padding: 175px 4px 0px 4px;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
       }
       
       .col-lg-4 {
@@ -46,7 +60,9 @@ body {
       }
 
       .column {
-        flex: 25%;
+        -webkit-box-flex: 25%;
+            -ms-flex: 25%;
+                flex: 25%;
         max-width: 25%;
         padding: 0 4px;
       }
@@ -66,14 +82,18 @@ body {
       
       @media screen and (max-width: 800px) {
         .column {
-          flex: 50%;
+          -webkit-box-flex: 50%;
+              -ms-flex: 50%;
+                  flex: 50%;
           max-width: 50%;
         }
       }
       
       @media screen and (max-width: 600px) {
         .column {
-          flex: 100%;
+          -webkit-box-flex: 100%;
+              -ms-flex: 100%;
+                  flex: 100%;
           max-width: 100%;
         }
       }
@@ -96,9 +116,10 @@ body {
         height: 728px;
         vertical-align: top;
         display: inline-block;
-    }
+        }
+
     .form-container .form-horizontal {
-        background: rgb(139, 138, 138);
+        background: #226e4b;
         width: 50%;
         padding: 33px 35px 32.5px;
         display: inline-block;
@@ -121,7 +142,28 @@ body {
     }
     .form-container .form-horizontal .form-control:focus {
         outline: none;
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+    }
+    .form-container .form-horizontal .form-control::-webkit-input-placeholder {
+        color: #ccc;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .form-container .form-horizontal .form-control::-moz-placeholder {
+        color: #ccc;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .form-container .form-horizontal .form-control:-ms-input-placeholder {
+        color: #ccc;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .form-container .form-horizontal .form-control::-ms-input-placeholder {
+        color: #ccc;
+        font-size: 16px;
+        font-weight: 400;
     }
     .form-container .form-horizontal .form-control::placeholder {
         color: #ccc;
@@ -134,12 +176,14 @@ body {
     }
     .form-container .form-horizontal .btn {
         color:#fff;
-        background:#4dae3c;
+        background:#000000;
         font-size: 18px;
         letter-spacing: 1px;
         border-radius: 50px;
         padding: 8px 25px;
         border: none;
+        -webkit-transition: all .4s ease;
+        -o-transition: all .4s ease;
         transition: all .4s ease;
     }
     .form-container .form-horizontal .btn:hover{ text-shadow: 2px 2px 2px rgba(0,0,0,.6); }
@@ -211,6 +255,8 @@ body {
     border-radius: 50px;
     padding: 8px 25px;
     border: none;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
     transition: all .4s ease;
 }
 
@@ -225,8 +271,7 @@ body {
 }
 
 .modal-header {
-  background-color: blanchedalmond;
-     
+  background-color: blanchedalmond;   
 }
 
 .fa-shop {
@@ -400,3 +445,29 @@ li {
   font-style:normal !important;
 }
 
+ul.ppt {
+  position: relative;
+  padding:0px;
+  margin:0px;
+}
+
+.ppt li {
+  padding:0px;
+  margin:0px 5px;
+  list-style-type: none;
+  float: left;
+}
+
+.leftfloat { float: left; }
+
+.inlineimage {
+  margin:0px 0px 0px 5px;
+  border:0px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
