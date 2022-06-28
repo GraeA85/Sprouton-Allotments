@@ -22,27 +22,49 @@ body {
             filter: grayscale(70%);
     }
 
-        
-    .navbar-fixed-top {
-        position:fixed !important;
-    }
+        .navbar-fixed-top {
+          position: fixed !important;
+        }
 
-  .navbar-brand {
-    display: inline-block;
-    font-family: 'Lobster', cursive;
-    font-weight:400;
-    color: rgb(220, 228, 220);
-    padding: 10px 10px 10px 10px;
-    font-size: 2.8vw;
-    
-    }
+        .navbar-brand {
+          display: inline-block;
+          font-family: 'Lobster', cursive;
+          font-weight: 400;
+          color: rgb(220, 228, 220);
+          padding: 10px 10px 10px 10px;
+          font-size: 3vh;
+        }
 
-    .nav-link {
-        font-family: 'IBM Plex Sans', sans-serif;
-        color: rgb(220, 220, 220);
-        font-size:large;          
-    }
-    
+        .nav-link {
+          font-size: 2vh !important;
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) - CSS for Navbar-brand */
+        @media only screen and (min-width: 992px) {
+          .navbar-brand {
+            font-size: 6vh;
+          }
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up - CSS for Navbar-brand) */
+        @media only screen and (min-width: 1200px) {
+          .navbar-brand {
+            font-size: 6vh;
+          }
+        }
+
+
+        .nav-link {
+          font-family: 'IBM Plex Sans', sans-serif;
+          color: rgb(220, 220, 220);
+
+        }
+        @media only screen and (max-width: 992px) {
+          .nav-link i {
+            color: black !important;
+          }
+        }
+      
     .row {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -98,6 +120,8 @@ body {
         }
       }
       
+      /*End of image gallery media queries*/
+
       /* Custom CSS for application form */
 
       .form-container {
@@ -195,6 +219,8 @@ body {
         }
         .form-container .form-horizontal{ width: 100%; }
     }
+
+    /*End of Form CSS*/
 
     /*Custom CSS for home page */
 
@@ -317,11 +343,6 @@ body {
   margin-bottom: 0px;
   }
   
-.nav-link {
-  font-size:medium;
-}
-
-
 .lead, .p-row {
   font-size: 1rem;
 }
@@ -343,12 +364,6 @@ iframe {
   width: 500px !important;
 }
 
-.guide {
-  height: 100%;
-  width: 100%;
-}
-
-
 .featurette-heading i {
   margin-left: 10px;
 }
@@ -367,42 +382,6 @@ iframe {
 }
 
 
-/* Small devices (landscape phones, 576px and up) */
-@media only screen and (max-width: 576px) { .navbar-brand, .navbar-toggler {
-  font-size: 4vw !important;
-  
-} 
-.navbar-nav i {display: none;
-}
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media only screen and (max-width: 768px) {.navbar-brand, .navbar-toggler {
-  font-size: 6vw !important;
-  
-}}
-
-/* Large devices (desktops, 992px and up) */
-@media only screen and (max-width: 992px) { .navbar-brand, .navbar-toggler {
-  font-size: 6vw !important;
-  
-}}
-
-/* ipad Mini Portrait */
-@media only screen and (max-width:768px) and (resolution: 163dpi) {  .navbar-brand, .navbar-toggler {
-  font-size: 10vw !important;
-  
-}
-
-}
-
-/* ipad Mini Landscape */
-@media only screen and (max-width:1180px) and (resolution: 163dpi) {  .navbar-brand, .navbar-toggler {
-  font-size: 10vw !important;
-  }
-.navbar-nav i {display: none;
-}
-}
 
 .badge {
   background: #4dae3c !important;
@@ -414,30 +393,6 @@ iframe {
 
 .modal-body {
   font-family: "IBM Plex Sans" !important;
-}
-
-#thumbs {   
-  width: 112.5px !important;
-  height: 122.5px !important;
-  
-  margin-left: auto !important; 
-  margin-right: auto !important;
-
-   text-align: justify !important;
-  -ms-text-justify: distribute-all-lines !important;
-  text-justify: distribute-all-lines !important;
-}
-#thumbs a {
-  vertical-align: top !important;
-  display: inline-block !important;
-  *display: inline !important;
-  zoom: 1 !important;
-}
-.stretch {
-  width: 100% !important;
-  display: inline-block !important;
-  font-size: 0 !important;
-  line-height: 0 !important;
 }
 
 li {
@@ -458,16 +413,51 @@ ul.ppt {
   float: left;
 }
 
-.leftfloat { float: left; }
-
-.inlineimage {
-  margin:0px 0px 0px 5px;
-  border:0px;
-}
-
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
 }
+
+/* Custom CSS to change screen width that hamburger icon kicks in - fix for Ipad Mini and Ipad Air in Portrait Mode */
+
+@media (min-width: 768px) {
+  .navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-lg>.container,
+  .navbar-expand-lg>.container-fluid {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+  
+  .nav-link i {
+    color: white !important;
+  }
+}
+
+/* End of Custom CSS to change screen width that hamburger icon kicks in - fix for Ipad Mini and Ipad Air in Portrait Mode */
