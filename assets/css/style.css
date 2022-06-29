@@ -35,14 +35,11 @@ body {
           font-size: 3vh;
         }
 
-        .nav-link {
-          font-size: 2vh !important;
-        }
-
+       
         /* Large devices (laptops/desktops, 992px and up) - CSS for Navbar-brand */
         @media only screen and (min-width: 992px) {
           .navbar-brand {
-            font-size: 6vh;
+            font-size: 5vh;
           }
         }
 
@@ -61,7 +58,7 @@ body {
         }
         @media only screen and (max-width: 992px) {
           .nav-link i {
-            color: black !important;
+            display: none;
           }
         }
       
@@ -141,6 +138,18 @@ body {
         vertical-align: top;
         display: inline-block;
         }
+/* Media query to remove form image on smaller screen sizes as image is distorted/not clear - image appears at 1400px and above */
+    
+@media only screen and (max-width: 1399px){
+      .form-img {
+        display: none !important;
+            }
+      .form-horizontal {
+        width: 100% !important;
+      }
+    }
+
+/*end of media query */
 
     .form-container .form-horizontal {
         background: #226e4b;
@@ -359,10 +368,7 @@ p {
   font-family: 'IBM Plex Sans';
 }
 
-iframe {
-  height: 500px !important;
-  width: 500px !important;
-}
+
 
 .featurette-heading i {
   margin-left: 10px;
@@ -380,8 +386,6 @@ iframe {
 .navbar-toggler-collapsed {
   color: white;
 }
-
-
 
 .badge {
   background: #4dae3c !important;
@@ -455,9 +459,25 @@ ul.ppt {
     display: none;
   }
   
-  .nav-link i {
-    color: white !important;
-  }
 }
 
 /* End of Custom CSS to change screen width that hamburger icon kicks in - fix for Ipad Mini and Ipad Air in Portrait Mode */
+
+#disclaimer {
+  text-align: center;
+  font-size: xx-small;
+}
+
+iframe {
+  width:500px !important;
+  height: 500px !important;
+}
+
+@media (min-width:768px) and (max-width:1399px) {
+  .img-fluid {
+    margin-top: 50px !important;
+  }
+  .featurette {
+    padding-top: 25px !important;
+  }
+}
