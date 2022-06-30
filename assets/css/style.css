@@ -78,7 +78,7 @@ body {
             -ms-flex: 25%;
                 flex: 25%;
         max-width: 25%;
-        padding: 0 4px 10px 0;
+        padding: 0 4px 20px 0;
       }
       
       .featurette {
@@ -122,9 +122,9 @@ body {
         border-radius: 20px;
         overflow: hidden;
         padding-top: 5px;
-        padding-bottom: 10px; 
-          
-    }
+        padding-bottom: 30px;       
+        } 
+
     .form-container .form-img {
         background-image: url("../images/HeartSoil_Lead1.jpg");
         background-repeat: no-repeat;
@@ -133,6 +133,8 @@ body {
         height: 728px;
         vertical-align: top;
         display: inline-block;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
         }
 /* Media query to remove form image on smaller screen sizes as image is distorted/not clear - image appears at 1400px and above */
     
@@ -148,10 +150,12 @@ body {
 /*end of media query */
 
     .form-container .form-horizontal {
-        background: #226e4b;
+        background: #6e4c22;
         width: 50%;
         padding: 33px 35px 32.5px;
         display: inline-block;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
     }
     .form-container .title {
         color:#fff;
@@ -279,8 +283,8 @@ body {
 
 .rowbtn {
 
-    color:#fff;
-    background:#4dae3c;
+    color:#DCE4DC;
+    background: rgb(78, 131, 78);
     font-size: 18px;
     letter-spacing: 1px;
     border-radius: 50px;
@@ -289,6 +293,8 @@ body {
     -webkit-transition: all .4s ease;
     -o-transition: all .4s ease;
     transition: all .4s ease;
+    
+    
 }
 
 .modal-backdrop {
@@ -302,12 +308,12 @@ body {
 }
 
 .modal-header {
-  background-color: rgb(78, 129, 86);
+  background-color: rgb(78, 131, 78);
   
 }
 
 .fa-shop {
-  padding-left: 55px;
+  padding-left: 15px;
 }
 
 .fw2 {
@@ -337,7 +343,7 @@ body {
     font-size: 6em;
   }
   .col-lg-4 {
-    padding-bottom: 0;
+    padding-bottom: 25px;
     padding-top: 25px;
   }
 .featurette {
@@ -477,7 +483,14 @@ iframe {
   .featurette {
     padding-top: 25px !important;
   }
-  
+  .fa-shop  {
+    padding-left: 10px;
+  }
+
+  .fa-carrot, .fa-trowel {
+    padding-left: 20px;
+  }
+
 }
 
 .footer-list {
@@ -495,7 +508,21 @@ iframe {
   list-style-type: none;
    
 }
-.footer-item i {
-  color:#226e4b;
-  font-size: 20px;
+.footer-item {
+  color:white;
+  
 }
+
+.footer-item i {
+  color: white;
+}
+
+footer {
+  background-color: rgb(15, 146, 15);
+  filter: grayscale(70%);
+  }
+
+.btn {
+  color: white;
+}
+
