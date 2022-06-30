@@ -56,12 +56,7 @@ body {
           color: rgb(220, 220, 220);
 
         }
-        @media only screen and (max-width: 992px) {
-         .nav-link i {
-            display: none;
-          }
-        }
-      
+              
     .row {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -83,7 +78,7 @@ body {
             -ms-flex: 25%;
                 flex: 25%;
         max-width: 25%;
-        padding: 0 4px;
+        padding: 0 4px 10px 0;
       }
       
       .featurette {
@@ -126,7 +121,8 @@ body {
         font-size: 0;
         border-radius: 20px;
         overflow: hidden;
-        padding-top: 5px; 
+        padding-top: 5px;
+        padding-bottom: 10px; 
           
     }
     .form-container .form-img {
@@ -306,7 +302,8 @@ body {
 }
 
 .modal-header {
-  background-color: blanchedalmond;   
+  background-color: rgb(78, 129, 86);
+  
 }
 
 .fa-shop {
@@ -458,7 +455,7 @@ ul.ppt {
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
-  
+ 
 }
 
 /* End of Custom CSS to change screen width that hamburger icon kicks in - fix for Ipad Mini and Ipad Air in Portrait Mode */
@@ -480,5 +477,25 @@ iframe {
   .featurette {
     padding-top: 25px !important;
   }
+  
 }
 
+.footer-list {
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 100%;
+  
+  margin: 0;
+  padding: 0;
+}
+.footer-item {
+  display: block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
+   
+}
+.footer-item i {
+  color:#226e4b;
+  font-size: 20px;
+}
