@@ -1,4 +1,3 @@
-
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
@@ -10,269 +9,298 @@ body {
   background-color: whitesmoke
 }
 
+/* Navbar Custom CSS - Navbar from Bootstrap and styled with custom CSS*/
+
 .navbar {
-    height: 175px;
-    width: 100%;
-    background-color: #111010;
-    position: relative;
-    background-image: url("../images/salad-4267061.jpg");
-    -webkit-filter: brightness(90%);
-            filter: brightness(90%);
-    -webkit-filter: grayscale(70%);
-            filter: grayscale(70%);
-    }
+  height: 175px;
+  width: 100%;
+  background-color: #111010;
+  position: relative;
+  background-image: url("../images/salad-4267061.jpg");
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%);
+}
 
-        .navbar-fixed-top {
-          position: fixed !important;
-        }
+.navbar-fixed-top {
+  position: fixed !important;
+}
 
-        .navbar-brand {
-          display: inline-block;
-          font-family: 'Lobster', cursive;
-          font-weight: 400;
-          color: rgb(220, 228, 220);
-          padding: 10px 10px 10px 10px;
-          font-size: 3vh;
-        }
+.navbar-brand {
+  display: inline-block;
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  color: rgb(220, 228, 220);
+  padding: 10px 10px 10px 10px;
+  font-size: 3vh;
 
-       
-        /* Large devices (laptops/desktops, 992px and up) - CSS for Navbar-brand */
-        @media only screen and (min-width: 992px) {
-          .navbar-brand {
-            font-size: 5vh;
-          }
-        }
+}
 
-        /* Extra large devices (large laptops and desktops, 1200px and up - CSS for Navbar-brand) */
-        @media only screen and (min-width: 1200px) {
-          .navbar-brand {
-            font-size: 6vh;
-          }
-        }
+.nav-link {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: rgb(220, 220, 220);
+}
 
-
-        .nav-link {
-          font-family: 'IBM Plex Sans', sans-serif;
-          color: rgb(220, 220, 220);
-
-        }
-              
-    .row {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-        padding: 175px 4px 0px 4px;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-      }
-      
-      .col-lg-4 {
-        padding-top: 175px;
-      }
-
-      .column {
-        -webkit-box-flex: 25%;
-            -ms-flex: 25%;
-                flex: 25%;
-        max-width: 25%;
-        padding: 0 4px 20px 0;
-      }
-      
-      .featurette {
-        padding-top: 50px;
-        padding-bottom: 50px;
-      }
-
-      .column img {
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
-      }
-      
-      /*image gallery media queries */
-      
-      @media screen and (max-width: 800px) {
-        .column {
-          -webkit-box-flex: 50%;
-              -ms-flex: 50%;
-                  flex: 50%;
-          max-width: 50%;
-        }
-      }
-      
-      @media screen and (max-width: 600px) {
-        .column {
-          -webkit-box-flex: 100%;
-              -ms-flex: 100%;
-                  flex: 100%;
-          max-width: 100%;
-        }
-      }
-      
-      /*End of image gallery media queries*/
-
-      /* Custom CSS for application form */
-
-      .form-container {
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 0;
-        border-radius: 20px;
-        overflow: hidden;
-        padding-top: 5px;
-        padding-bottom: 30px;       
-        } 
-
-    .form-container .form-img {
-        background-image: url("../images/HeartSoil_Lead1.jpg");
-        background-repeat: no-repeat;
-        background-position: center center;
-        width: 50%;
-        height: 728px;
-        vertical-align: top;
-        display: inline-block;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        }
-/* Media query to remove form image on smaller screen sizes as image is distorted/not clear - image appears at 1400px and above */
-    
-@media only screen and (max-width: 1399px){
-      .form-img {
-        display: none !important;
-            }
-      .form-horizontal {
-        width: 100% !important;
-      }
-    }
-
-/*end of media query */
-
-    .form-container .form-horizontal {
-        background: #6e4c22;
-        width: 50%;
-        padding: 33px 35px 32.5px;
-        display: inline-block;
-        border-bottom-right-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-    .form-container .title {
-        color:#fff;
-        font-size: 25px;
-        font-weight: 400;
-        margin: 0 0 35px;
-    }
-    .form-container .form-horizontal .form-group { margin: 0 0 10px; }
-    .form-container .form-horizontal .form-control {
-        color: #ccc;
-        background: transparent;
-        padding: 5px 0;
-        margin-bottom: 33px;
-        border: none;
-        border-bottom: 1px solid rgba(255,255,255,.2);
-        border-radius: 0;
-    }
-    .form-container .form-horizontal .form-control:focus {
-        outline: none;
-        -webkit-box-shadow: none;
-                box-shadow: none;
-    }
-    .form-container .form-horizontal .form-control::-webkit-input-placeholder {
-        color: #ccc;
-        font-size: 16px;
-        font-weight: 400;
-    }
-    .form-container .form-horizontal .form-control::-moz-placeholder {
-        color: #ccc;
-        font-size: 16px;
-        font-weight: 400;
-    }
-    .form-container .form-horizontal .form-control:-ms-input-placeholder {
-        color: #ccc;
-        font-size: 16px;
-        font-weight: 400;
-    }
-    .form-container .form-horizontal .form-control::-ms-input-placeholder {
-        color: #ccc;
-        font-size: 16px;
-        font-weight: 400;
-    }
-    .form-container .form-horizontal .form-control::placeholder {
-        color: #ccc;
-        font-size: 16px;
-        font-weight: 400;
-    }
-    .form-container .form-horizontal .form-group select.form-control option {
-        color: #000;
-        background: #fff;
-    }
-    .form-container .form-horizontal .btn {
-        color:#fff;
-        background:#000000;
-        font-size: 18px;
-        letter-spacing: 1px;
-        border-radius: 50px;
-        padding: 8px 25px;
-        border: none;
-        -webkit-transition: all .4s ease;
-        -o-transition: all .4s ease;
-        transition: all .4s ease;
-    }
-    .form-container .form-horizontal .btn:hover{ text-shadow: 2px 2px 2px rgba(0,0,0,.6); }
-    .form-container .form-horizontal .btn:focus{ outline: none; }
-    @media only screen and (max-width:576px){
-        .form-container .form-img{
-            width: 100%;
-            height: 400px;
-        }
-        .form-container .form-horizontal{ width: 100%; }
-    }
-
-    /*End of Form CSS*/
-
-    /*Custom CSS for home page */
-
-    .col-lg-4 {
-      padding: 50px;
-    }
-
-    h2 {
-      padding: 10px;
-    }
-
-      
-    main p {
-      padding-top: 10px;
-    }
-
-    .rowbtn {
-      text-align:left
-    }
-    
-   hr {
-    border-top: 3px solid rgb(144, 175, 144);
-    border-radius: 5px;
-    opacity: 1;
-    }  
-    
-    /* Custom CSS for Navigation Bar */
-
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
   color: lime
 }
 
 .navbar-nav {
-    --bs-nav-link-hover-color: lime;
+  --bs-nav-link-hover-color: lime;
+}
+
+.navbar {
+  --bs-navbar-brand-hover-color: lime;
+}
+
+/* Large devices (laptops/desktops, 992px and up) - CSS for Navbar-brand */
+@media only screen and (min-width: 992px) {
+  .navbar-brand {
+    font-size: 5vh;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up - CSS for Navbar-brand) */
+@media only screen and (min-width: 1200px) {
+  .navbar-brand {
+    font-size: 6vh;
+  }
+}
+
+
+
+/* Homepage layout and custom CSS - Template from Bootstrap and styled with Custom CSS */
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 175px 4px 0px 4px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.col-lg-4 {
+  padding-top: 175px;
+}
+
+.column {
+  -webkit-box-flex: 25%;
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px 20px 0;
+}
+
+.featurette {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/*image gallery media queries Gallery layout from Bootstrap and styled with Custom CSS */
+
+@media screen and (max-width: 800px) {
+  .column {
+    -webkit-box-flex: 50%;
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -webkit-box-flex: 100%;
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*End of image gallery media queries*/
+
+/* Custom CSS for application form - Form layout from Bootstrap and styled with Custom CSS*/
+
+.form-container {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.form-container .form-img {
+  background-image: url("../images/HeartSoil_Lead1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 50%;
+  height: 728px;
+  vertical-align: top;
+  display: inline-block;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+
+@media only screen and (max-width: 1399px) {
+  .form-img {
+    display: none !important;
   }
 
-  .navbar {
-    --bs-navbar-brand-hover-color: lime;
+  .form-horizontal {
+    width: 100% !important;
+  }
+
+  .form-horizontal {
+    border-radius: 25px;
+  }
+}
+
+.form-container .form-horizontal {
+  background: #6e4c22;
+  width: 50%;
+  padding: 33px 35px 32.5px;
+  display: inline-block;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.form-container .title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0 0 35px;
+}
+
+.form-container .form-horizontal .form-group {
+  margin: 0 0 10px;
+}
+
+.form-container .form-horizontal .form-control {
+  color: #ccc;
+  background: transparent;
+  padding: 5px 0;
+  margin-bottom: 33px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+  border-radius: 0;
+}
+
+.form-container .form-horizontal .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-container .form-horizontal .form-control::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-container .form-horizontal .form-control::-moz-placeholder {
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-container .form-horizontal .form-control:-ms-input-placeholder {
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-container .form-horizontal .form-control::-ms-input-placeholder {
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-container .form-horizontal .form-control::placeholder {
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-container .form-horizontal .form-group select.form-control option {
+  color: #000;
+  background: #fff;
+}
+
+.form-container .form-horizontal .btn {
+  color: #fff;
+  background: #000000;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  padding: 8px 25px;
+  border: none;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.form-container .form-horizontal .btn:hover {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .6);
+}
+
+.form-container .form-horizontal .btn:focus {
+  outline: none;
+}
+
+@media only screen and (max-width:576px) {
+  .form-container .form-img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .form-container .form-horizontal {
+    width: 100%;
+  }
+}
+
+/*End of Form CSS*/
+
+/*Custom CSS for homepage */
+
+.col-lg-4 {
+  padding: 50px;
+}
+
+h2 {
+  padding: 10px;
+}
+
+
+main p {
+  padding-top: 10px;
+}
+
+.rowbtn {
+  text-align: left
+}
+
+hr {
+  border-top: 3px solid rgb(144, 175, 144);
+  border-radius: 5px;
+  opacity: 1;
 }
 
 /* Custom CSS for homepage - modals */
 
-.rowbtn, .fw-normal {
+.rowbtn,
+.fw-normal {
   text-align: center;
 }
 
@@ -283,18 +311,18 @@ body {
 
 .rowbtn {
 
-    color:#DCE4DC;
-    background: rgb(78, 131, 78);
-    font-size: 18px;
-    letter-spacing: 1px;
-    border-radius: 50px;
-    padding: 8px 25px;
-    border: none;
-    -webkit-transition: all .4s ease;
-    -o-transition: all .4s ease;
-    transition: all .4s ease;
-    
-    
+  color: #DCE4DC;
+  background: rgb(78, 131, 78);
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  padding: 8px 25px;
+  border: none;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+
+
 }
 
 .modal-backdrop {
@@ -309,7 +337,7 @@ body {
 
 .modal-header {
   background-color: rgb(78, 131, 78);
-  
+
 }
 
 .fa-shop {
@@ -326,52 +354,59 @@ body {
 
 /* CSS Styling for smaller screens */
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
   body .no-pm {
-      padding-left:0 !important;
-      margin:0 !important;
+    padding-left: 0 !important;
+    margin: 0 !important;
   }
-  .fa-trowel, .fa-carrot {
-      padding-left: 100px;
-      padding-right: 100px;
-        font-size: 6em;
+
+  .fa-trowel,
+  .fa-carrot {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 6em;
   }
- 
+
   .fa-shop {
     padding-left: 70px;
     padding-right: 70px;
     font-size: 6em;
   }
+
   .col-lg-4 {
     padding-bottom: 25px;
     padding-top: 25px;
   }
-.featurette {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-.featurette-divider {
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+
+  .featurette {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
-  
-.lead, .p-row {
-  font-size: 1rem;
-}
+
+  .featurette-divider {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .lead,
+  .p-row {
+    font-size: 1rem;
+  }
 
 }
+
+/* End of media query styling for smaller screens */
+
+/* Misc. styling - template from Boostrap and styled with custom CSS */
 
 h2 {
   font-family: 'lobster';
   font-style: italic;
 }
 
-
 p {
   font-family: 'IBM Plex Sans';
 }
-
-
 
 .featurette-heading i {
   margin-left: 10px;
@@ -379,9 +414,11 @@ p {
 
 @media(max-width: 767px) {
   .container-fluid {
-      width: auto;
+    width: auto;
   }
-  .nav-link, .nav-link-active {
+
+  .nav-link,
+  .nav-link-active {
     padding: 6px 0px;
   }
 }
@@ -396,35 +433,39 @@ p {
 
 .modal-title {
   font-family: "lobster";
- }
+}
 
 .modal-body {
   font-family: "IBM Plex Sans" !important;
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
 }
 
 li {
   font-family: "IBM Plex Sans" !important;
-  font-style:normal !important;
+  font-style: normal !important;
 }
 
 ul.ppt {
   position: relative;
-  padding:0px;
-  margin:0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .ppt li {
-  padding:0px;
-  margin:0px 5px;
+  padding: 0px;
+  margin: 0px 5px;
   list-style-type: none;
   float: left;
 }
 
+/* CSS to remove default toggler icon and colour */
+
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 /* Custom CSS to change screen width that hamburger icon kicks in - fix for Ipad Mini and Ipad Air in Portrait Mode */
@@ -436,81 +477,136 @@ ul.ppt {
     -ms-flex-pack: start;
     justify-content: flex-start;
   }
+
   .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
     flex-direction: row;
   }
+
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
   }
+
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
+
   .navbar-expand-lg>.container,
   .navbar-expand-lg>.container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
+
   .navbar-expand-lg .navbar-collapse {
     display: -ms-flexbox !important;
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
   }
+
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
- 
+
 }
 
 /* End of Custom CSS to change screen width that hamburger icon kicks in - fix for Ipad Mini and Ipad Air in Portrait Mode */
 
-#disclaimer {
-  text-align: center;
-  font-size: xx-small;
-}
+
+/* Video and Google Maps sizing for desktop */
 
 iframe {
-  width:500px !important;
-  height: 500px !important;
+  width: 100% !important;
+  height: 100% !important;
+
 }
 
-@media (min-width:768px) and (max-width:1399px) {
-  .img-fluid {
-    margin-top: 50px !important;
+/* Media queries to fix alignment issues on tablets (landscape and portait) */
+
+@media (min-width:768px) and (max-width:1399px) and (Orientation : Portrait) {
+
+
+  #sitemap {
+    margin-top: 250px !important;
   }
+
+  #cgroup {
+    margin-top: 150px !important;
+  }
+
+  #gmap {
+    margin-top: 150px !important;
+    height: 50% !important;
+  }
+
+  #avideo {
+    margin-top: 150px !important;
+    height: 50% !important;
+
+  }
+
   .featurette {
     padding-top: 25px !important;
   }
-  .fa-shop  {
+
+  .fa-shop {
     padding-left: 10px;
   }
 
-  .fa-carrot, .fa-trowel {
+  .fa-carrot,
+  .fa-trowel {
     padding-left: 20px;
   }
 
 }
 
+@media (min-width:768px) and (max-width:1399px) and (Orientation : Landscape) {
+  #cgroup {
+    margin-top: 100px !important;
+  }
+
+  #sitemap {
+    margin-top: 120px !important;
+  }
+
+  #gmap {
+    margin-top: 150px !important;
+    height: 50% !important;
+  }
+
+  #avideo {
+    margin-top: 100px !important;
+    height: 50% !important;
+  }
+}
+
+/*End of custom media queries*/
+
+/* Custom CSS for Footer - Boostrap template and styled with Custom CSS*/
+
 .footer-list {
   display: flex;
-  align-items: stretch; /* Default */
+  align-items: stretch;
+  /* Default */
   justify-content: space-between;
   width: 100%;
-  
+
   margin: 0;
   padding: 0;
 }
+
 .footer-item {
   display: block;
-  flex: 0 1 auto; /* Default */
+  flex: 0 1 auto;
+  /* Default */
   list-style-type: none;
-   
+
 }
+
 .footer-item {
-  color:white;
-  
+  color: white;
+
 }
 
 .footer-item i {
@@ -520,9 +616,10 @@ iframe {
 footer {
   background-color: rgb(15, 146, 15);
   filter: grayscale(70%);
-  }
+}
 
 .btn {
   color: white;
 }
 
+/* End of Footer CSS */
