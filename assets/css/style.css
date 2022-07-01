@@ -16,11 +16,11 @@ body {
   width: 100%;
   background-color: #111010;
   position: relative;
-  background-image: url("../images/salad-4267061.jpg");
-  -webkit-filter: brightness(90%);
-  filter: brightness(90%);
-  -webkit-filter: grayscale(70%);
-  filter: grayscale(70%);
+  background-image: url("../images/saladedit2.png");
+  -webkit-filter: brightness(10%);
+  filter: brightness(10%);
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
 }
 
 .navbar-fixed-top {
@@ -623,3 +623,8 @@ footer {
 }
 
 /* End of Footer CSS */
+
+@media (max-width: 768px) {
+  .navbar {background-image: url("../images/gardens-2213638.jpg");
+}
+}
