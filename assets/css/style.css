@@ -24,7 +24,7 @@ body {
 }
 
 .navbar-fixed-top {
-  position: fixed !important;
+  position: fixed;
 }
 
 .navbar-brand {
@@ -327,12 +327,12 @@ hr {
 
 .modal-backdrop {
   display: none;
-  z-index: 1040 !important;
+  z-index: 1040;
 }
 
 .modal-content {
   margin: 2px auto;
-  z-index: 1100 !important;
+  z-index: 1100;
 }
 
 .modal-header {
@@ -355,11 +355,7 @@ hr {
 /* CSS Styling for smaller screens */
 
 @media (max-width: 767px) {
-  body .no-pm {
-    padding-left: 0 !important;
-    margin: 0 !important;
-  }
-
+ 
   .fa-trowel,
   .fa-carrot {
     padding-left: 100px;
@@ -427,8 +423,8 @@ p {
   color: white;
 }
 
-.badge {
-  background: #4dae3c !important;
+.bg-primary {
+  background-color: #4dae3c;
 }
 
 .modal-title {
@@ -436,14 +432,14 @@ p {
 }
 
 .modal-body {
-  font-family: "IBM Plex Sans" !important;
+  font-family: "IBM Plex Sans";
   max-height: calc(100vh - 210px);
   overflow-y: auto;
 }
 
 li {
-  font-family: "IBM Plex Sans" !important;
-  font-style: normal !important;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
 }
 
 ul.ppt {
@@ -499,8 +495,8 @@ ul.ppt {
   }
 
   .navbar-expand-lg .navbar-collapse {
-    display: -ms-flexbox !important;
-    display: flex !important;
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
   }
@@ -528,11 +524,11 @@ iframe {
 
 
   #sitemap {
-    margin-top: 250px !important;
+    margin-top: 250px;
   }
 
   #cgroup {
-    margin-top: 150px !important;
+    margin-top: 150px;
   }
 
   #gmap {
@@ -547,7 +543,7 @@ iframe {
   }
 
   .featurette {
-    padding-top: 25px !important;
+    padding-top: 25px;
   }
 
   .fa-shop {
@@ -563,11 +559,11 @@ iframe {
 
 @media (min-width:768px) and (max-width:1399px) and (Orientation : Landscape) {
   #cgroup {
-    margin-top: 100px !important;
+    margin-top: 100px;
   }
 
   #sitemap {
-    margin-top: 120px !important;
+    margin-top: 120px;
   }
 
   #gmap {
@@ -625,6 +621,6 @@ footer {
 /* End of Footer CSS */
 
 @media (max-width: 768px) {
-  .navbar {background-image: url("../images/gardens-2213638.jpg");
+  .navbar {background-image: url("../images/");
 }
 }
