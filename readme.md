@@ -1,6 +1,31 @@
 # Sprouton Allotments
 
-Sproughton Allotments are a community run allotment site for veteran and beginner allotmenteers to create, grow and showcase their garden and allotment sites. The website is targeted at existing Sprouton Allotment owners to keep up to date with allotment developments, as well as budding gardeners hoping to get their hands dirty and jump into an allotment of their own. The website is designed to inform people about the allotment site, what can be done with an allotment and place themselves on a waiting list for an allotment in the future. 
+Sprouton Allotments are a community run allotment site for veteran and beginner allotmenteers to create, grow and showcase their garden and allotment sites. The website is targeted at existing Sprouton Allotment owners to keep up to date with allotment developments, as well as budding gardeners hoping to get their hands dirty and jump into an allotment of their own. The website is designed to inform people about the allotment site, what can be done with an allotment and place themselves on a waiting list for an allotment in the future. 
+
+# User Experience Design
+
+## User stories
+
+### First Time Visitor Goals
+
+ - As a First Time user, I want to easily understand the main purpose of the site and learn more about the allotment site.
+- As a First Time user, I want to be able to navigate throughout the site pages to find relevant content.
+- As a First Time user, I want to view the website and content clearly on the device I am currently using and switch between devices and have the webpage be responsive.
+- As a First Time user, I want to find out about the allotment site, how to get an allotment and some beginner tips.
+
+### Returning Visitor Goals
+
+- As a Returning user, I want to apply for an allotment, if I haven't already.
+- As a Returning user, I want to contact the allotment owners to ask any questions I might have
+- As a returning user, I want to get a list of the equipment that I need and see what is avaiable to buy in the allotment shop.
+
+### Frequent Visitor Goals
+
+- As a Frequent user, I want to check to see if there are any upcoming changes to the allotment site.
+- As a Frequent user, I want to check what stock the allotment shop has or contact the allotment shop for them to order an item in for me.
+- As a Frequent user, I want to view the image gallery to see if my allotment is being showcased.
+
+## Structure
 
 ## Features 
 

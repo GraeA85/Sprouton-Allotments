@@ -47,7 +47,7 @@ body {
 
 .navbar-nav .nav-link.active,
 .navbar-nav .show>.nav-link {
-  color: lime
+  color: lime;
 }
 
 .navbar-nav {
@@ -55,7 +55,7 @@ body {
 }
 
 .navbar {
-  --bs-navbar-brand-hover-color: lime;
+  --bs-navbar-brand-hover-color: rgb(15, 146, 15);
 }
 
 /* Large devices (laptops/desktops, 992px and up) - CSS for Navbar-brand */
@@ -295,7 +295,7 @@ main p {
 }
 
 hr {
-  border-top: 3px solid rgb(144, 175, 144);
+  border-top: 2px solid rgb(156, 179, 156);
   border-radius: 5px;
   opacity: 1;
 }
