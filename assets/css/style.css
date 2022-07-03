@@ -427,7 +427,7 @@ p {
 }
 
 .bg-primary {
-  background-color: #4dae3c;
+  background-color: #4dae3c !important;
 }
 
 .modal-title {
@@ -456,6 +456,10 @@ ul.ppt {
   margin: 0px 5px;
   list-style-type: none;
   float: left;
+}
+
+.lead a {
+  color:#4dae3c
 }
 
 /* CSS to remove default toggler icon and colour */
