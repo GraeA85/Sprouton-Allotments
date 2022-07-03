@@ -45,13 +45,13 @@ The website is built using my own knowledge gained throughout the course of HTML
 
 ## Project Research 
 
-Having recently acquired my own allotment and researching the topic, I have presented the information in such a way that is ideal for beginners and undaunting like some allotment websites tend to be. The knowledge is what I wish I had prior to having my own allotmment.
+Having recently acquired my own allotment and researching the topic, I have presented the information in such a way that is ideal for beginners and less daunting compared to more "veteran" allotment websites. The knowledge presented is what I wish I had prior to having my own allotmment.
 
   * Research Analysis
   
   There has been a massive increase of interest in allotment ownership, particularly through the pandemic. Waiting lists are a big thing for all allotment sites so encouraging people to sign up as early as possible will benefit them greatly as some waiting lists can be up to 10 years +
 
-# Sprouton Allotments
+## Sprouton Allotments
 
 Sprouton Allotments are a community run allotment site for veteran and beginner allotmenteers to create, grow and showcase their garden and allotment sites. The website is targeted at existing Sprouton Allotment owners to keep up to date with allotment developments, as well as budding gardeners hoping to get their hands dirty and jump into an allotment of their own. The website is designed to inform people about the allotment site, what can be done with an allotment and place themselves on a waiting list for an allotment in the future. 
 
@@ -88,18 +88,16 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 
 ![Navbarmobile](assets/images/navbarmobile.png) ![navbaropen](assets/images/navbaropen.png)
 
-  - The navigation bar is present across all three pages of the Sprouton Allotment website. It is fully responsive and includes links to the home page, image gallery and the allotment application page. The navigation bar is in a fixed position therefore always visible to the user when scrolling the page. This is effective UX design, preventing the user to have to scroll back to the top of the page manually, or rely on auto-scoll buttons placed on the website.
+  * The navigation bar is present across all three pages of the Sprouton Allotment website. It is fully responsive and includes links to the home page, image gallery and the waiting list application page. The navigation bar is in a fixed position therefore always visible to the user when scrolling the page. This is effective UX design, preventing the user to have to scroll back to the top of the page manually, or rely on auto-scoll buttons placed on the website.
   
-  The navigation bar shrinks to a "hamburger" icon and presents the links in a drop-down menu when the website is viewed on smaller screens such as a mobile phone or smaller tablet. I have changed the default hamburger icon to a plant related font awesome icon, in-keeping with the page design. This may be against UX design as users are familiar with the default hamburger icon. This was confirmed in user testing, however to add interactivity to the website I decided to keep the icon and make it "bounce" so users will be attracted to click it. The bouncing animation stops once the button is pressed.
+  * The navigation bar shrinks to a "hamburger" icon and presents the links in a drop-down menu when the website is viewed on smaller screens such as a mobile phone or smaller tablet. I have changed the default hamburger icon to a plant related font awesome icon, in-keeping with the page design. This may be against UX design as users are familiar with the default hamburger icon. This was confirmed in user testing, however to add interactivity to the website I decided to keep the icon and make it "beat" so users will be attracted to click it. The animation stops once the button is pressed.
 
-  The current page is highlighted in green to notify the user of their current page and links change colour upon hover to notify the user the link is clickable.
+  * The current page is highlighted in green to notify the user of their current page and links change colour upon hover to notify the user the link is clickable.
 
-  The background image of the navigation bar is responsive and changes to a different image on smaller screens - this is for aesthetic reasons. I have applied a filter to the background image which allows for the links to easily stand out against the background and give the navigation bar a more professional look.
+  * The background image of the navigation bar is responsive and changes to a different image on smaller screens - this is for aesthetic reasons. I have applied a filter to the background image which allows for the links to easily stand out against the background and give the navigation bar a more professional look.
 
-  > As a first time user its important that I can navigate through the entire website easily - If I somehow get lost then I should be able to return to the homepage. I should be able to get to each page of the website from my current page.
-
-
-- __The Home page__
+## The Home page
+***
 
 ![Homepage](assets/images/homepage.png)
 
@@ -112,11 +110,11 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
   
   - The next section is split into three parts - a getting started equipment guide, a growing guide and a stock list of the on-site allotment shop. I have presented the equipment list and allotment shop as modals that open upon clicking the corresponding button. The growing guide links to an external pdf provided by a well-established gardening company with permission to use. The modals have a close button to easily get back to the website behind and they can also be clicked away from if the user is on a desktop website. The headers of the modals are always visible to allow the user to quickly exit, rather than having to scroll back up the page.
 
-  The Home page is fully responsive.
+  - The Home page is fully responsive.
 
 
-- __Image Gallery__
-
+## Image Gallery
+***
 ![gallery](assets/images/gallery.png)
 
 
@@ -124,14 +122,14 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
   - The image are presented in a visually appealing grid box which is fully responsive (webpage is scrollable).
    
 
-- __Waiting list application  page__
-
+## Waiting list application  page
+***
 ![apply](assets/images/apply.png)
 
 
   - This page of the site allows the site visitor to apply to join the waiting list for Sprouton allotments. It includes a relevant image (soil in a heart shape being held) with a form to gather the prospective owners information. The form is fully responsive. For design purposes, the image disappears on smaller screens so the form is the main focus for the user. The form makes use of the "required" attribute to ensure all required information is inputted by the user. Once complete the user can click the submit button which will take the user to a "thank you" page. The thank you page is included to provide feedback to the user that their request has been acknowledged. The thank you page opens in a new browser tab to prevent the user losing their place on the main website - it also includes links to return to the homepage or further information on contacting the allotment site owners.
   
-- __Website Footer__
+## Website Footer
 
 ![footer](assets/images/footer.png)
 
@@ -139,13 +137,19 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
  I decided to keep the footer simple with just the social media links present - colour is in-keeping with the website colour scheme.
  - The links are facebook, instagram, twiiter and YouTube. Copyright information is also displayed.
 
- - __Form Acknowledgement Page__
+ ## Form Acknowledgement Page
 
 ![thanks](assets/images/thanks.png)
 
  - The form acknowledge page appears once a user has completed the form with all required fields containing the correct information. The page is a simple acknowledgement to the user with links to contact the allotment site or return to the homepage.
 
+ ## 404 Error Page
 
+ ![404](assets/images/404.png)
+
+## Features to be Implemented in Future
+      * A members only section, allowing users to arrange seed-swaps, equipment loans etc.
+      * Allotment shop - allowing users to buy online and collect their order when they are next on site, or have them delivered to their allotment.
 
  * ## Design
     * ## Colour Scheme
@@ -176,7 +180,7 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
 * HTML
 	* This project uses HTML as the main language used to complete the structure of the Website. The Gitpod template used was created by Code Institute
 * CSS
-	* This project uses custom written CSS to style the Website.
+	* This project uses custom written CSS to style the html.
 * [Bootstrap](https://getbootstrap.com/)
 	* The layout of the website was created from a Bootstrap template. The CDN is present in the head of the HTML code and the Javascript script required is present at the end of the HTML code.
 * [Font Awesome](https://fontawesome.com/)
@@ -205,7 +209,10 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
 
 ### Test Strategy 
 
-#### Summary 
+* ## Testing
+    Testing for this website was done using the Microsoft Edge Browser, using  the built-in Chrome Developer Tools to check responsiveness on different screensizes. Testing was also done on an iPhone 10 using Safari and Microsoft Edge. Testing was also carried out on a Microsoft Surface Pro 7 as I encountered some issues with landscape layout through the developer tools. No issues were found with responsiveness and previous issues have been dealt with through custom screen aspect media queries.
+    In addition to my own testing, I sent my website link to family and friends and asked for them to test the website out using the same methods listed below.
+
 
 THe website contains no backend functionality therefore testing will concentrate on:
 
@@ -216,8 +223,54 @@ THe website contains no backend functionality therefore testing will concentrate
 * Testing out the "404" page if somehow the user manually keys in the website wrong or finds a broken link
 * Testing the modals work correctly and display at all resolution breakpoints
 * Testing the YouTube and Google map API links work correctly
-* Testing the "growing list" link that should open up an external PDF file in a seperate tab
+* Testing the "growing list" link that should open up an external PDF file in a seperate tab.
 
+    * ## User Stories Testing
+      1. As a user visiting the site for the first time, I want to navigate the site quickly and efficiently.
+         * Website visitor can navigate to the home page from any page in the website. This is either via the navigation menu, or the navbrand logo, as is standard on most websites.
+      2. As a user, I want to know a brief history and story about the allotment site, any committee/manager involvement of the allotment site and other useful information.
+         * Website visitor can browse the homepage which is broken up into sections. They are informed about the current allotment site, the committee team of the allotment, a site map of the allotment and other useful information about allotment ownership.
+         * There is further information provided in modals on the homepage, detailing equipment needed, an on site shop and external information about growing produce.
+      3. As a visitor, I want to view images of the allotment site and other related images such as vegetables grown on the site or the layout of other peoples allotments.
+         * The website visitor can visit the image gallery page to view images of allotments, fruit/vegetables and other peoples allotments.
+      4. As a visitor who is interested in owning an allotment, I wish to get on the waiting list for this allotment site.
+         * The website visitor can apply to join the waiting list using the waiting list page. The page requires the user to fill in mandatory fields and presents the user with an acknowledgement once complete.
+      5. As a user, I want to be able to contact the allotment site for further information without committing to the waiting list.
+         * A user can contact the allotment site from a link on the homepage. They can also contact the allotment site from the thank you page once they have signed up for the waiting list.
+         * A user can visit the allotment sites social media and contact the site via external means. These links are present in the footer bar on each page.
+      6. As a website visitor, I want to know what items are available for sale in the on-site allotment shop. 
+         * A visitor can click the allotment shop link on the home page and be presented with a current shop stock list and pricing.
+      7. As a user, I want to be able to access your social media accounts.
+         * A user can access the comapnies social media links via the footer in any of the pages that they find themselves on.
+    * ## Manual Testing 
+      * Navigation - Repeated steps on all pages.
+        * Click on logo to confirm that it navigates to landing page.
+        * Click on all navigation links to verify that they direct to the indicated page.
+        * Verify that the current page the user is on, is highlighted as active in the menu.
+        * Verify that the navigation menu is responsive to screen size and switches the navigational links to the "hamburger" icon on appropriately sized screens.
+        * Ensure the hamburger menu opens correctly and displays the navigational links
+      * Home page
+        * Verify that the google maps and youtube video load on all browsers and at all breakpoints. 
+        * Verify that the images are correctly shown on all browsers and at all breakpoints.
+        * Verify that the buttons present the user with the correct modals and external documents. Ensure that the modals display correctly on all screen sizes and can be closed easily by the user to return to the page behind.
+        * Verify that all social media links displayed in the footer work correctly and open in a new page/browser tab
+      * Image gallery
+        * Verify that all images load correctly
+        * Verify that images are displayed within the gridbox layout on all screen sizes and are fully responsive.
+      * Waiting List
+        * Verify that the form and image display correctly on larger screens
+        * Verify that the image disappears on smaller screens and the user is only presented with the form.
+        * Verify that the form works correctly - all required fields give a prompt if not correctly completed. Verify once form is completed and submitted that the user is taken to the acknowledgement page.
+      * Thank you page
+        * Verify that page displays correctly, ackowledging the users form input.
+        * Verify that the user can navigate back to the home page from the acknowledgement page.
+      * 404 page
+        * Verify that the page displays correctly and that the user can navigate anywhere else on the site.
+      * Footer - Repeated steps on all pages.
+        * Verify that the social media links open in a new tab.
+
+        The main piece of feedback from my user testing was in relation to the hamburger icon. Against UX design I have changed the icon to a plant rather than the traditional hamburger icon that people are familiar with. Some testers were not aware the plant represented a hambuger icon. To combat this, rather than changing the icon back to the traditional icon, I used the built in "beat" function that can be applied to font awesome icons. The icon now shows a "beating" animation which will draw the user to click the icon. Once the icon has been pressed, the icon stops beating, this was achieved using an "onclick" attribute on the icon which essentially removes the "fa-beat" from the span class once it has been opened. The beat will be re-applied if the user moves to another page or refreshes their current page, however the icon will have already achieved its intended purpose.
+        
 ### Validator Testing 
 
 - HTML
