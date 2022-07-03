@@ -16,12 +16,15 @@ body {
   width: 100%;
   background-color: #111010;
   position: relative;
-  background-image: url("../images/saladedit2.png");
-  -webkit-filter: brightness(10%);
-  filter: brightness(10%);
-  -webkit-filter: grayscale(80%);
-  filter: grayscale(80%);
-}
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("../images/saladedit2.png");
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+  }
 
 .navbar-fixed-top {
   position: fixed;
@@ -620,7 +623,17 @@ footer {
 
 /* End of Footer CSS */
 
+/* CSS to style navbar on smaller screens - changed background image for aesthetic purposes*/
+
 @media (max-width: 768px) {
-  .navbar {background-image: url("../images/");
+  .navbar {background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("../images/little-gem-lettuce.jpg");
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+    background-size: cover;
 }
 }
