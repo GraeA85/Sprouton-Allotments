@@ -4,7 +4,7 @@
   * [User stories](#User-Stories)
     * [First Time Visitor Goals](#First-Time-Visitor-Goals)
     * [Returning Visitor Goals](#Returning-Visitor-Goals)
-    * [Frequent User Goals](#Frequent-User-Goals)
+    * [Frequent User Goals](#Frequent-Visitor-Goals)
   * [Structure](#Structure)
   * [Design](#Design)
     * [Colour Scheme](#Colour-Scheme)
@@ -31,16 +31,25 @@
 * [Credits](#Credits)
   * [Content](#Content)
   * [Media](#Media)
-  * [Acknowledgements](#Acknowledgements)
-  * [Comments](#Comments)
 
 # Milestone Project One
 ## Purpose
 This website was created for the required Milestone Project One for the Code Institutes Web Development Course.
-Using the project ideas within the course handbook, I decided to build a website for a (fictional) allotment site. The website is designed to inform users about what is involved in owning an allotment, what a typical allotment site is like and guides on how to get started. 
-The website is built using my own knowledge gained throughout the course of HTML and CSS, taking into account UX design at every step. 
 
 The live website can be found [here](https://graea85.github.io/Sprouton-Allotments/index.html)
+
+I wanted to build a website to showcase a fictional allotment site, based in England. The website is designed to inform users about what is involved in owning an allotment, what a typical allotment site is like and guides on how to get started. The information and images present on the pages are designed in a way to make the website feel real. 
+The website is built using my own knowledge gained throughout the course of HTML and CSS, taking into account UX design at every step.
+
+![Am I Responsive image of how the landing page looks across different browser sizes](assets/images/responsive.png)
+
+## Project Research 
+
+Having recently acquired my own allotment and researching the topic, I have presented the information in such a way that is ideal for beginners and undaunting like some allotment websites tend to be. The knowledge is what I wish I had prior to having my own allotmment.
+
+  * Research Analysis
+  
+  There has been a massive increase of interest in allotment ownership, particularly through the pandemic. Waiting lists are a big thing for all allotment sites so encouraging people to sign up as early as possible will benefit them greatly as some waiting lists can be up to 10 years +
 
 # Sprouton Allotments
 
@@ -71,17 +80,29 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 
 ## Structure
 
-## Features 
+## Existing Features 
 
 - __Navigation Bar__
 
-  - The navigation bar is present across all three pages of the Sprouton Allotment website. It is fully responsive and includes links to the home page, image gallery and the allotment application page. The navigation bar is in a fixed position therefore always visible to the user when scrolling the page. This is effective UX design, preventing the user to have to scroll back to the top of the page manually, or rely on auto-scoll buttons placed on the website. The navigation bar shrinks to a "hamburger" icon and presents the links in a drop-down menu when the website is viewed on smaller screens such as a mobile phone or smaller tablet.
-  THe background image of the navigation bar is responsive and changes to a different image on smaller screens - this is for aesthetic reasons only. I have applied a filter to the background image which allows for the links to easily stand out against the background.
+![Navbar](assets/images/navbar.png)
+
+![Navbarmobile](assets/images/navbarmobile.png) ![navbaropen](assets/images/navbaropen.png)
+
+  - The navigation bar is present across all three pages of the Sprouton Allotment website. It is fully responsive and includes links to the home page, image gallery and the allotment application page. The navigation bar is in a fixed position therefore always visible to the user when scrolling the page. This is effective UX design, preventing the user to have to scroll back to the top of the page manually, or rely on auto-scoll buttons placed on the website.
+  
+  The navigation bar shrinks to a "hamburger" icon and presents the links in a drop-down menu when the website is viewed on smaller screens such as a mobile phone or smaller tablet. I have changed the default hamburger icon to a plant related font awesome icon, in-keeping with the page design. This may be against UX design as users are familiar with the default hamburger icon. This was confirmed in user testing, however to add interactivity to the website I decided to keep the icon and make it "bounce" so users will be attracted to click it. The bouncing animation stops once the button is pressed.
+
+  The current page is highlighted in green to notify the user of their current page and links change colour upon hover to notify the user the link is clickable.
+
+  The background image of the navigation bar is responsive and changes to a different image on smaller screens - this is for aesthetic reasons. I have applied a filter to the background image which allows for the links to easily stand out against the background and give the navigation bar a more professional look.
 
   > As a first time user its important that I can navigate through the entire website easily - If I somehow get lost then I should be able to return to the homepage. I should be able to get to each page of the website from my current page.
 
 
 - __The Home page__
+
+![Homepage](assets/images/homepage.png)
+
 
   - The Home page is broken up into sections. The first section is "Our Allotment Story" giving the user some background and current information regarding the allotment site. It also includes an embedded google map to show the location of the Allotment Site. I have used font awesome icons relevant to each section (the story book icon to represent the background story of the allotment site).
   The second section introduces the website visitor to the allotment committee - briefly explaining their role, names and contact information. I have included a photograph to allow existing site owners to recognise the committee members whenever they meet in person. This also gives new visitors to the site a prosepective of the owners and the mutual ideals of the allotment site. 
@@ -96,18 +117,49 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 
 - __Image Gallery__
 
+![gallery](assets/images/gallery.png)
+
+
   - The image gallery page includes photographs of the allotment site, produce grown on the allotment and other relevant photos designed to visually explain the allotment site and encourage people to join the waiting list. 
-  - The image are presented in a visually appealing grid box which is fully responsive. 
+  - The image are presented in a visually appealing grid box which is fully responsive (webpage is scrollable).
    
 
 - __Waiting list application  page__
+
+![apply](assets/images/apply.png)
+
 
   - This page of the site allows the site visitor to apply to join the waiting list for Sprouton allotments. It includes a relevant image (soil in a heart shape being held) with a form to gather the prospective owners information. The form is fully responsive. For design purposes, the image disappears on smaller screens so the form is the main focus for the user. The form makes use of the "required" attribute to ensure all required information is inputted by the user. Once complete the user can click the submit button which will take the user to a "thank you" page. The thank you page is included to provide feedback to the user that their request has been acknowledged. The thank you page opens in a new browser tab to prevent the user losing their place on the main website - it also includes links to return to the homepage or further information on contacting the allotment site owners.
   
 - __Website Footer__
 
+![footer](assets/images/footer.png)
+
  - The footer present on each page of the website includes links to Sprouton Allotments social media pages. Each link will open in a new tab to allow the user to easily switch between the two and not lose their original position on the Sprouton Allotments website.
- - The links are facebook, instagram, twiiter and YouTube.
+ I decided to keep the footer simple with just the social media links present - colour is in-keeping with the website colour scheme.
+ - The links are facebook, instagram, twiiter and YouTube. Copyright information is also displayed.
+
+ - __Form Acknowledgement Page__
+
+![thanks](assets/images/thanks.png)
+
+ - The form acknowledge page appears once a user has completed the form with all required fields containing the correct information. The page is a simple acknowledgement to the user with links to contact the allotment site or return to the homepage.
+
+
+
+ * ## Design
+    * ## Colour Scheme
+      I wanted a colour scheme based around gardening colours - namely plant-greens and earthy browns. 
+    * ## Favicon 
+      I used the [Favicon.io](https://favicon.io/) website to create a favicon for my website. I wanted something simple and recognisable, related to gardening. I used font awesome for the icon and styled it - using favicon to produce the file.
+    * ## Typography
+      I wanted a cursive font for the website name/logo and subsequent headers through the page. I wanted a simple yet professional looking font for the paragraphs and other writings.
+    * ## Imagery
+      All imagery was sourced from pexels.com or google images, ensuring they had appropriate commercial licenses.
+
+      I opted for images to fit with the website purpose. I wanted images that showcased gardens, allotments, vegetables and images in-keeping with the website colour scheme.
+    * ## Layout
+      I decided on a multi-page layout rather than one single flowing page. The bulk of the website information is presented on the homepage, which is neatly displayed using a bootstrap template which I have customised with my own CSS. The image gallery is designed to showcase the allotments from the allotment site, as well as produce grown on site and other images from around the allotments. All images are aesthetically pleasing and fit with the scope of the website.
 
  __Wireframes__
 
