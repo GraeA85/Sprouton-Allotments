@@ -29,25 +29,25 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-### Existing Features
-
 - __Navigation Bar__
 
-  - The navigation bar is present across all three pages of the Sprouton Allotment webiste. It is fully responsive and includes links to the home page, image gallery and the allotment application page. The navigation bar is in a fixed position therefore always visible to the user when scrolling the page. This is effective UX design, preventing the user to have to scroll back to the top of the page manually, or rely on auto-scoll buttons placed on the website. The navigation bar shrinks to a "hamburger" icon and presents the links in a drop-down menu when the website is viewed on smaller screens such as a mobile phone or smaller tablet.
+  - The navigation bar is present across all three pages of the Sprouton Allotment website. It is fully responsive and includes links to the home page, image gallery and the allotment application page. The navigation bar is in a fixed position therefore always visible to the user when scrolling the page. This is effective UX design, preventing the user to have to scroll back to the top of the page manually, or rely on auto-scoll buttons placed on the website. The navigation bar shrinks to a "hamburger" icon and presents the links in a drop-down menu when the website is viewed on smaller screens such as a mobile phone or smaller tablet.
+  THe background image of the navigation bar is responsive and changes to a different image on smaller screens - this is for aesthetic reasons only. I have applied a filter to the background image which allows for the links to easily stand out against the background.
+
+  | As a first time user its important that I can navigate through the entire website easily - If I somehow get lost then I should be able to return to the homepage. I should be able to get to each page of the website from my current page.
 
 
-- __The landing page__
+- __The Home page__
 
-  - The landing is broken up into sections. The first section is "Our Allotment Story" giving the user some background and current information regarding the allotment site. It also includes an embedded google map to show the location of the Allotment Site. I have used font awesome icons relevant to each section (the story book icon to represent the background story of the allotment site).
+  - The Home page is broken up into sections. The first section is "Our Allotment Story" giving the user some background and current information regarding the allotment site. It also includes an embedded google map to show the location of the Allotment Site. I have used font awesome icons relevant to each section (the story book icon to represent the background story of the allotment site).
   The second section introduces the website visitor to the allotment committee - briefly explaining their role, names and contact information. I have included a photograph to allow existing site owners to recognise the committee members whenever they meet in person. This also gives new visitors to the site a prosepective of the owners and the mutual ideals of the allotment site. 
   Each section is succinct as to give the user enough information without information overload.
   The third section of the website is about the allotment site itself. Giving the website user information on the number of allotments available, the sizes available and other important details about the site. This is accompanied by an image of the allotment site layout which gives new users their bearings and existing owners a handy map. 
-  The fourth section gives the user information on the benefits of owning an allotment. I have included a video produced by the National Allotment Society, showcasing the benefits. This is included as to persuade new users to sign up for an allotment and remind existing owners just how good they have it!
+  The fourth section gives the user information on the benefits of owning an allotment. I have included a video produced by the National Allotment Society, showcasing the benefits. This is included as to persuade new users to sign up for an allotment and remind existing owners about the numerous benefits of allotment ownership.
   
-  - The next section is split into three parts - a getting started equipment guide, a growing guide and a stock list of the on-site allotment shop. I have presented the equipment list and allotment shop as modals that open upon clicking the button. The growing guide links to an external pdf provided by a well-established gardening company with permission to use.
+  - The next section is split into three parts - a getting started equipment guide, a growing guide and a stock list of the on-site allotment shop. I have presented the equipment list and allotment shop as modals that open upon clicking the button. The growing guide links to an external pdf provided by a well-established gardening company with permission to use. The modals have a close button to easily get back to the website behind and they can also be clicked away from if the user is on a desktop website. The headers of the modals are always visible to allow the user to quickly exit, rather than having to scroll back up the page.
 
+  The Home page is fully responsive.
 
 
 - __Image Gallery__
@@ -58,7 +58,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __Waiting list application  page__
 
-  - This page of the site allows the site visitor to apply to join the waiting list for Sproughton allotments. It includes a relevant image (soil in a heart shape being held) with a form to gather the prospective owners information. The form and image are fully responsive. The form makes use of the "required" attribute to ensure all required information is inputted by the user. Once complete the user can click the submit button which will take the user to a "thank you" page. The thank you page is included to provide feedback to the user that their request has been acknowledged. The thank you page opens in a new browser tab to prevent the user losing their place on the main website - it also includes links to return to the homepage or further information on contacting the allotment site owners.
+  - This page of the site allows the site visitor to apply to join the waiting list for Sprouton allotments. It includes a relevant image (soil in a heart shape being held) with a form to gather the prospective owners information. The form is fully responsive. For design purposes, the image disappears on smaller screens so the form is the main focus for the user. The form makes use of the "required" attribute to ensure all required information is inputted by the user. Once complete the user can click the submit button which will take the user to a "thank you" page. The thank you page is included to provide feedback to the user that their request has been acknowledged. The thank you page opens in a new browser tab to prevent the user losing their place on the main website - it also includes links to return to the homepage or further information on contacting the allotment site owners.
   
 - __Website Footer__
 
@@ -72,8 +72,41 @@ Using Balsamiq I created a wireframe for the website for both a desktop browser 
 - Mobile device wireframe (LINK TO BE ADDED)
 - Desktop browser wireframe (LINK TO BE ADDED)
 
+## Technologies
+***
+## Technologies
 
-
+* HTML
+	* This project uses HTML as the main language used to complete the structure of the Website. The Gitpod template used was created by Code Institute
+* CSS
+	* This project uses custom written CSS to style the Website.
+* [Bootstrap](https://getbootstrap.com/)
+	* The layout of the website was created from a Bootstrap template. The CDN is present in the head of the HTML code and the Javascript script required is present at the end of the HTML code.
+	* 
+* [Font Awesome](https://fontawesome.com/)
+	* Font awesome icons are present throughout the website - the Navbar Brand (site logo) is prefixed with a font awesome icon. Each section of the homepage uses a font awesome icon relevant to each piece of content. The icons for the bottom section of the home page each use a font awesome icon. The footer present on each page also uses font awesome icons for each of the social media links. 
+* [Google Fonts](https://fonts.google.com/)
+	* Google fonts are used thourhgout the webpage and are linked to in the page head. The fonts used are  *Lobster* and *IBM Plex Sans.* 
+* [GitHub](https://github.com/)
+	* GitHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+* [Gitpod](https://git-scm.com/)
+	* Git is used to create and edit all code used to build the website and store assets. It also functions as version control software to commit and push code to the GitHub repository where the source code is stored.
+* [TinyJPG](https://tinyjpg.com/)
+	* TinyJPG is used to reduce the file sizes of images before being deployed to reduce storage and bandwith. Used on all images in the image gallery.
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles. Allows the testing of features/code without editing of your own HTML/CSS.
+* [balsamiq Wireframes](https://balsamiq.com/wireframes/)
+	* This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+* [MS PAINT](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9)
+    * Used to edit some of the images present on the website, mainly those used in the navigation bar.
+* [Post CSS](https://postcss.org/)
+    * I ran my code through this tool to ensure no errors were present and it was recommended to use to fix any errors with Ipad resolutions. 
+* [Favicon](https://favicon.io/)
+    * Favicon.io was used to make the site favicon - the font icon itself was taken from Font Awesome.
+* [Techsini](http://techsini.com/multi-mockup/index.php)
+    * tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image at the start of the README.
+* 
+***
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
@@ -82,7 +115,24 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - A members only area of the website - including seed-swaps, equipment-loan and allotment market information.
 
-## Testing 
+### Test Strategy 
+
+#### Summary 
+
+Testing is required on MilestoneProject-1 – Hair O’ The Dog MCC Responsive Website.
+
+As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website. Testing to be done on at least three web browsers and all screen sizes.
+
+No elements should overlap another container div. All elements should remain on the screen at all sizes above 300px. All carousel items should be controllable with the mouse as well as sliding on a timer. 
+
+All nav links should direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html. 
+
+All links to external websites must open in a new browser.
+
+Testing of form validation will also be required to ensure the correct inputs are taken and that all fields are required. 
+
+Validation of inclusion for all features included in the Structure of the Website / Wireframes must be performed.
+
 
 
 
