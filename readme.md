@@ -164,15 +164,15 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 ***
    * ## Colour Scheme
       I wanted a colour scheme based around gardening colours - namely plant-greens and earthy browns. 
-    * ## Favicon 
+  * ## Favicon 
       I used the [Favicon.io](https://favicon.io/) website to create a favicon for my website. I wanted something simple and recognisable, related to gardening. I used font awesome for the icon and styled it - using favicon to produce the file.
-    * ## Typography
+  * ## Typography
       I wanted a cursive font for the website name/logo and subsequent headers through the page. I wanted a simple yet professional looking font for the paragraphs and other writings.
-    * ## Imagery
+  * ## Imagery
       All imagery was sourced from pexels.com or google images, ensuring they had appropriate commercial licenses.
 
       I opted for images to fit with the website purpose. I wanted images that showcased gardens, allotments, vegetables and images in-keeping with the website colour scheme.
-    * ## Layout
+  * ## Layout
       I decided on a multi-page layout rather than one single flowing page. The bulk of the website information is presented on the homepage, which is neatly displayed using a bootstrap template which I have customised with my own CSS. The image gallery is designed to showcase the allotments from the allotment site, as well as produce grown on site and other images from around the allotments. All images are aesthetically pleasing and fit with the scope of the website.
 <br><br>
 
@@ -222,6 +222,8 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
 
 ## Test Strategy 
 ***
+<br>
+
  ### Testing
     Testing for this website was done using the Microsoft Edge Browser, using  the built-in Chrome Developer Tools to check responsiveness on different screensizes. Testing was also done on an iPhone 10 using Safari and Microsoft Edge. Testing was also carried out on a Microsoft Surface Pro 7 as I encountered some issues with landscape layout through the developer tools. No issues were found with responsiveness and previous issues have been dealt with through custom screen aspect media queries.
     In addition to my own testing, I sent my website link to family and friends and asked for them to test the website out using the same methods listed below.
