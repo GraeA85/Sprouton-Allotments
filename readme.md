@@ -47,7 +47,7 @@ The website is built using my own knowledge gained throughout the course of HTML
 
 Having recently acquired my own allotment and researching the topic, I have presented the information in such a way that is ideal for beginners and less daunting compared to more "veteran" allotment websites. The knowledge presented is what I wish I had prior to having my own allotmment.
 
-  * Research Analysis
+  * ### Research Analysis
   
   There has been a massive increase of interest in allotment ownership, particularly through the pandemic. Waiting lists are a big thing for all allotment sites so encouraging people to sign up as early as possible will benefit them greatly as some waiting lists can be up to 10 years +
 
@@ -82,12 +82,12 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 
 ## Existing Features 
 
-- __Navigation Bar__
-
+## Navigation Bar
+***
 ![Navbar](assets/images/navbar.png)
-
+<br><br>
 ![Navbarmobile](assets/images/navbarmobile.png) ![navbaropen](assets/images/navbaropen.png)
-
+<br><br>
   * The navigation bar is present across all three pages of the Sprouton Allotment website. It is fully responsive and includes links to the home page, image gallery and the waiting list application page. The navigation bar is in a fixed position therefore always visible to the user when scrolling the page. This is effective UX design, preventing the user to have to scroll back to the top of the page manually, or rely on auto-scoll buttons placed on the website.
   
   * The navigation bar shrinks to a "hamburger" icon and presents the links in a drop-down menu when the website is viewed on smaller screens such as a mobile phone or smaller tablet. I have changed the default hamburger icon to a plant related font awesome icon, in-keeping with the page design. This may be against UX design as users are familiar with the default hamburger icon. This was confirmed in user testing, however to add interactivity to the website I decided to keep the icon and make it "beat" so users will be attracted to click it. The animation stops once the button is pressed.
@@ -95,7 +95,7 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
   * The current page is highlighted in green to notify the user of their current page and links change colour upon hover to notify the user the link is clickable.
 
   * The background image of the navigation bar is responsive and changes to a different image on smaller screens - this is for aesthetic reasons. I have applied a filter to the background image which allows for the links to easily stand out against the background and give the navigation bar a more professional look.
-
+<br><br>
 ## The Home page
 ***
 
@@ -111,7 +111,7 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
   - The next section is split into three parts - a getting started equipment guide, a growing guide and a stock list of the on-site allotment shop. I have presented the equipment list and allotment shop as modals that open upon clicking the corresponding button. The growing guide links to an external pdf provided by a well-established gardening company with permission to use. The modals have a close button to easily get back to the website behind and they can also be clicked away from if the user is on a desktop website. The headers of the modals are always visible to allow the user to quickly exit, rather than having to scroll back up the page.
 
   - The Home page is fully responsive.
-
+<br><br>
 
 ## Image Gallery
 ***
@@ -120,7 +120,7 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 
   - The image gallery page includes photographs of the allotment site, produce grown on the allotment and other relevant photos designed to visually explain the allotment site and encourage people to join the waiting list. 
   - The image are presented in a visually appealing grid box which is fully responsive (webpage is scrollable).
-   
+   <br><br>
 
 ## Waiting list application  page
 ***
@@ -128,31 +128,33 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 
 
   - This page of the site allows the site visitor to apply to join the waiting list for Sprouton allotments. It includes a relevant image (soil in a heart shape being held) with a form to gather the prospective owners information. The form is fully responsive. For design purposes, the image disappears on smaller screens so the form is the main focus for the user. The form makes use of the "required" attribute to ensure all required information is inputted by the user. Once complete the user can click the submit button which will take the user to a "thank you" page. The thank you page is included to provide feedback to the user that their request has been acknowledged. The thank you page opens in a new browser tab to prevent the user losing their place on the main website - it also includes links to return to the homepage or further information on contacting the allotment site owners.
-  
+  <br><br>
 ## Website Footer
-
+***
 ![footer](assets/images/footer.png)
 
  - The footer present on each page of the website includes links to Sprouton Allotments social media pages. Each link will open in a new tab to allow the user to easily switch between the two and not lose their original position on the Sprouton Allotments website.
  I decided to keep the footer simple with just the social media links present - colour is in-keeping with the website colour scheme.
  - The links are facebook, instagram, twiiter and YouTube. Copyright information is also displayed.
-
+<br><br>
  ## Form Acknowledgement Page
-
+***
 ![thanks](assets/images/thanks.png)
 
  - The form acknowledge page appears once a user has completed the form with all required fields containing the correct information. The page is a simple acknowledgement to the user with links to contact the allotment site or return to the homepage.
-
+<br><br>
  ## 404 Error Page
-
+***
  ![404](assets/images/404.png)
-
+<br><br>
 ## Features to be Implemented in Future
+***
       * A members only section, allowing users to arrange seed-swaps, equipment loans etc.
       * Allotment shop - allowing users to buy online and collect their order when they are next on site, or have them delivered to their allotment.
 
- * ## Design
-    * ## Colour Scheme
+## Design
+***
+   * ## Colour Scheme
       I wanted a colour scheme based around gardening colours - namely plant-greens and earthy browns. 
     * ## Favicon 
       I used the [Favicon.io](https://favicon.io/) website to create a favicon for my website. I wanted something simple and recognisable, related to gardening. I used font awesome for the icon and styled it - using favicon to produce the file.
@@ -164,9 +166,9 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
       I opted for images to fit with the website purpose. I wanted images that showcased gardens, allotments, vegetables and images in-keeping with the website colour scheme.
     * ## Layout
       I decided on a multi-page layout rather than one single flowing page. The bulk of the website information is presented on the homepage, which is neatly displayed using a bootstrap template which I have customised with my own CSS. The image gallery is designed to showcase the allotments from the allotment site, as well as produce grown on site and other images from around the allotments. All images are aesthetically pleasing and fit with the scope of the website.
-
- __Wireframes__
-
+<br><br>
+## Wireframes
+***
 Using Balsamiq I created wireframes for both a desktop browser and mobile phone browser. Please click links below:
 
 - [Desktop Home Page Wireframe](assets/Wireframes/Homepage.pdf)
@@ -174,9 +176,10 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
 - [Desktop Waiting List Wireframe](assets/Wireframes/Apply.pdf)
 - [Mobile device Wireframe](assets/Wireframes/mobile.pdf)
 
-***
-## Technologies
+<br>
 
+## Technologies
+***
 * HTML
 	* This project uses HTML as the main language used to complete the structure of the Website. The Gitpod template used was created by Code Institute
 * CSS
@@ -188,9 +191,9 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
 * [Google Fonts](https://fonts.google.com/)
 	* Google fonts are used thourhgout the website and are linked to in the page head. The fonts used are  *Lobster* and *IBM Plex Sans.* 
 * [GitHub](https://github.com/)
-	* GitHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+	* GitHub was the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
 * [Gitpod](https://git-scm.com/)
-	* Git is used to create and edit all code used to build the website and store assets. It also functions as version control software to commit and push code to the GitHub repository where the source code is stored.
+	* Git was used to create and edit all code used to build the website and store assets. It also functions as version control software to commit and push code to the GitHub repository where the source code is stored.
 * [TinyJPG](https://tinyjpg.com/)
 	* TinyJPG is used to reduce the file sizes of images before being deployed to reduce storage and bandwith. Used on all images in the image gallery.
 * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
@@ -205,16 +208,17 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
     * Favicon.io was used to make the site favicon - the font icon itself was taken from Font Awesome.
 * [Techsini](http://techsini.com/multi-mockup/index.php)
     * tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image at the start of the README.
+
+<br>
+
+## Test Strategy 
 ***
-
-### Test Strategy 
-
-* ## Testing
+ ### Testing
     Testing for this website was done using the Microsoft Edge Browser, using  the built-in Chrome Developer Tools to check responsiveness on different screensizes. Testing was also done on an iPhone 10 using Safari and Microsoft Edge. Testing was also carried out on a Microsoft Surface Pro 7 as I encountered some issues with landscape layout through the developer tools. No issues were found with responsiveness and previous issues have been dealt with through custom screen aspect media queries.
     In addition to my own testing, I sent my website link to family and friends and asked for them to test the website out using the same methods listed below.
 
 
-THe website contains no backend functionality therefore testing will concentrate on:
+The website contains no backend functionality therefore testing will concentrate on:
 
 * Testing navigational links on each seperate page, as well as the site logo which is designed to redirect to the home page
 * Testing the responsiveness of the website, making sure the layout and navigational features remain user friendly with UX design maintained
@@ -224,8 +228,11 @@ THe website contains no backend functionality therefore testing will concentrate
 * Testing the modals work correctly and display at all resolution breakpoints
 * Testing the YouTube and Google map API links work correctly
 * Testing the "growing list" link that should open up an external PDF file in a seperate tab.
+<br><br>
 
-    * ## User Stories Testing
+## User Stories Testing
+
+***
       1. As a user visiting the site for the first time, I want to navigate the site quickly and efficiently.
          * Website visitor can navigate to the home page from any page in the website. This is either via the navigation menu, or the navbrand logo, as is standard on most websites.
       2. As a user, I want to know a brief history and story about the allotment site, any committee/manager involvement of the allotment site and other useful information.
@@ -242,48 +249,60 @@ THe website contains no backend functionality therefore testing will concentrate
          * A visitor can click the allotment shop link on the home page and be presented with a current shop stock list and pricing.
       7. As a user, I want to be able to access your social media accounts.
          * A user can access the comapnies social media links via the footer in any of the pages that they find themselves on.
-    * ## Manual Testing 
-      * Navigation - Repeated steps on all pages.
-        * Click on logo to confirm that it navigates to landing page.
-        * Click on all navigation links to verify that they direct to the indicated page.
+
+   * ## Manual Testing
+***
+  * Navigation - Repeated steps on all pages.
+      * Click on logo to confirm that it navigates to landing page.
+       * Click on all navigation links to verify that they direct to the indicated page.
         * Verify that the current page the user is on, is highlighted as active in the menu.
         * Verify that the navigation menu is responsive to screen size and switches the navigational links to the "hamburger" icon on appropriately sized screens.
         * Ensure the hamburger menu opens correctly and displays the navigational links
+        <br><br>
       * Home page
         * Verify that the google maps and youtube video load on all browsers and at all breakpoints. 
         * Verify that the images are correctly shown on all browsers and at all breakpoints.
         * Verify that the buttons present the user with the correct modals and external documents. Ensure that the modals display correctly on all screen sizes and can be closed easily by the user to return to the page behind.
         * Verify that all social media links displayed in the footer work correctly and open in a new page/browser tab
+        <br><br>
       * Image gallery
         * Verify that all images load correctly
         * Verify that images are displayed within the gridbox layout on all screen sizes and are fully responsive.
+        <br><br>
       * Waiting List
         * Verify that the form and image display correctly on larger screens
         * Verify that the image disappears on smaller screens and the user is only presented with the form.
         * Verify that the form works correctly - all required fields give a prompt if not correctly completed. Verify once form is completed and submitted that the user is taken to the acknowledgement page.
+        <br><br>
       * Thank you page
         * Verify that page displays correctly, ackowledging the users form input.
         * Verify that the user can navigate back to the home page from the acknowledgement page.
+        <br><br>
       * 404 page
         * Verify that the page displays correctly and that the user can navigate anywhere else on the site.
+        <br><br>
       * Footer - Repeated steps on all pages.
         * Verify that the social media links open in a new tab.
+        <br><br>
 
-        The main piece of feedback from my user testing was in relation to the hamburger icon. Against UX design I have changed the icon to a plant rather than the traditional hamburger icon that people are familiar with. Some testers were not aware the plant represented a hambuger icon. To combat this, rather than changing the icon back to the traditional icon, I used the built in "beat" function that can be applied to font awesome icons. The icon now shows a "beating" animation which will draw the user to click the icon. Once the icon has been pressed, the icon stops beating, this was achieved using an "onclick" attribute on the icon which essentially removes the "fa-beat" from the span class once it has been opened. The beat will be re-applied if the user moves to another page or refreshes their current page, however the icon will have already achieved its intended purpose.
+  ## Feedback from user testing
+***
+  The main piece of feedback from my user testing was in relation to the hamburger icon. Against UX design I have changed the icon to a plant rather than the traditional hamburger icon that people are familiar with. Some testers were not aware the plant represented a hambuger icon. To combat this, rather than changing the icon back to the traditional icon, I used the built in "beat" function that can be applied to font awesome icons. The icon now shows a "beating" animation which will draw the user to click the icon. Once the icon has been pressed, the icon stops beating, this was achieved using an "onclick" attribute on the icon which essentially removes the "fa-beat" from the span class once it has been opened. The beat will be re-applied if the user moves to another page or refreshes their current page, however the icon will have already achieved its intended purpose.
+  <br><br>
         
-### Validator Testing 
-
+## Validator Testing 
+***
 - HTML
   - No errors were returned when passing through the official [W3C validator]
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator]
-
-### Unfixed Bugs
-
+<br><br>
+## Unfixed Bugs
+***
 There are no unfixed bugs present with the website. 
-
+<br><br>
 ## Deployment
-
+***
 Once the development process was well underway, the website was deployed to GitHub pages. In order to achieve this I: 
 
 - Opened up the website repo in GitHub and opened the settings tab.
@@ -294,13 +313,16 @@ The live link can be found here - https://graea85.github.io/Sprouton-Allotments/
 
 ***
 ## Credits
-### Code
+<br>
 
+## Code
+***
 The html and CSS code for the form was taken from https://colorlib.com/wp/template/colorlib-regform-3/. I then used my own custom CSS to redesign it to fit in with my website design and layout. I changed the image to a gardening themed image, added further form boxes to be relevant to my website and increased the radius of the borders. The image from the form is removed on smaller screen sizes for better UX design principles.
-Bootstrap was used for all other code and styled using my own custom CSS.
+Bootstrap was used for all other code and styled using my own custom CSS. The home page layout is based on the bootstrap template at https://getbootstrap.com/docs/4.0/examples/carousel/ and styled with custom CSS.
 I referred to W3Schools and Stack Overflow when I encountered issues, which were primarily to do with layout issues and media queries. I have put in several custom media queries to deal with display issues on the IPad mini and Ipad Air, specifically in portrait mode.
-
+<br><br>
 ## Content
+***
 
 ### Media
 The images used in the project were all sourced from pexels.com or google images, ensuring they were available for commercial use.
