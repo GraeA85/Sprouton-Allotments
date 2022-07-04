@@ -31,9 +31,12 @@
 * [Credits](#Credits)
   * [Content](#Content)
   * [Media](#Media)
-
+<br><br>
 # Milestone Project One
+<br>
+
 ## Purpose
+***
 This website was created for the required Milestone Project One for the Code Institutes Web Development Course.
 
 The live website can be found [here](https://graea85.github.io/Sprouton-Allotments/index.html)
@@ -42,19 +45,19 @@ I wanted to build a website to showcase a fictional allotment site, based in Eng
 The website is built using my own knowledge gained throughout the course of HTML and CSS, taking into account UX design at every step.
 
 ![Am I Responsive image of how the landing page looks across different browser sizes](assets/images/responsive.png)
-
+<br><br>
 ## Project Research 
-
+***
 Having recently acquired my own allotment and researching the topic, I have presented the information in such a way that is ideal for beginners and less daunting compared to more "veteran" allotment websites. The knowledge presented is what I wish I had prior to having my own allotmment.
 
   * ### Research Analysis
   
   There has been a massive increase of interest in allotment ownership, particularly through the pandemic. Waiting lists are a big thing for all allotment sites so encouraging people to sign up as early as possible will benefit them greatly as some waiting lists can be up to 10 years +
-
+<br><br>
 ## Sprouton Allotments
-
+***
 Sprouton Allotments are a community run allotment site for veteran and beginner allotmenteers to create, grow and showcase their garden and allotment sites. The website is targeted at existing Sprouton Allotment owners to keep up to date with allotment developments, as well as budding gardeners hoping to get their hands dirty and jump into an allotment of their own. The website is designed to inform people about the allotment site, what can be done with an allotment and place themselves on a waiting list for an allotment in the future. 
-
+<br><br>
 ## User Experience Design
 
 ### User stories
@@ -77,12 +80,16 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 - As a Frequent user, I want to check to see if there are any upcoming changes to the allotment site.
 - As a Frequent user, I want to check what stock the allotment shop has or contact the allotment shop for them to order an item in for me.
 - As a Frequent user, I want to view the image gallery to see if my allotment is being showcased.
-
+<br><br>
 ## Structure
+***
+<br>
 
-## Existing Features 
+  ## Existing Features 
+<Br>
 
-## Navigation Bar
+
+### Navigation Bar
 ***
 ![Navbar](assets/images/navbar.png)
 <br><br>
@@ -151,6 +158,7 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 ***
       * A members only section, allowing users to arrange seed-swaps, equipment loans etc.
       * Allotment shop - allowing users to buy online and collect their order when they are next on site, or have them delivered to their allotment.
+<br>
 
 ## Design
 ***
@@ -167,6 +175,7 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
     * ## Layout
       I decided on a multi-page layout rather than one single flowing page. The bulk of the website information is presented on the homepage, which is neatly displayed using a bootstrap template which I have customised with my own CSS. The image gallery is designed to showcase the allotments from the allotment site, as well as produce grown on site and other images from around the allotments. All images are aesthetically pleasing and fit with the scope of the website.
 <br><br>
+
 ## Wireframes
 ***
 Using Balsamiq I created wireframes for both a desktop browser and mobile phone browser. Please click links below:
