@@ -37,7 +37,6 @@ body {
   color: rgb(220, 228, 220);
   padding: 10px 10px 10px 10px;
   font-size: 3vh;
-
 }
 
 .nav-link {
@@ -72,8 +71,6 @@ body {
   }
 }
 
-
-
 /* Homepage layout and custom CSS - Template from Bootstrap and styled with Custom CSS */
 .row {
   display: -webkit-box;
@@ -81,7 +78,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 175px 4px 0px 4px;
+  padding: 175px 4px 0 4px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -154,7 +151,6 @@ body {
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
 }
-
 
 @media only screen and (max-width: 1399px) {
   .form-img {
@@ -262,17 +258,6 @@ body {
   outline: none;
 }
 
-@media only screen and (max-width:576px) {
-  .form-container .form-img {
-    width: 100%;
-    height: 400px;
-  }
-
-  .form-container .form-horizontal {
-    width: 100%;
-  }
-}
-
 /*End of Form CSS*/
 
 /*Custom CSS for homepage */
@@ -280,11 +265,6 @@ body {
 .col-lg-4 {
   padding: 50px;
 }
-
-h2 {
-  padding: 10px;
-}
-
 
 main p {
   padding-top: 10px;
@@ -324,8 +304,6 @@ hr {
   -webkit-transition: all .4s ease;
   -o-transition: all .4s ease;
   transition: all .4s ease;
-
-
 }
 
 .modal-backdrop {
@@ -340,7 +318,6 @@ hr {
 
 .modal-header {
   background-color: rgb(78, 131, 78);
-
 }
 
 .fa-shop {
@@ -383,15 +360,14 @@ hr {
   }
 
   .featurette-divider {
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .lead,
   .p-row {
     font-size: 1rem;
   }
-
 }
 
 /* End of media query styling for smaller screens */
@@ -401,6 +377,7 @@ hr {
 h2 {
   font-family: 'lobster';
   font-style: italic;
+  padding: 10px;
 }
 
 p {
@@ -418,7 +395,7 @@ p {
 
   .nav-link,
   .nav-link-active {
-    padding: 6px 0px;
+    padding: 6px 0;
   }
 }
 
@@ -447,13 +424,13 @@ li {
 
 ul.ppt {
   position: relative;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .ppt li {
-  padding: 0px;
-  margin: 0px 5px;
+  padding: 0;
+  margin: 0 5px;
   list-style-type: none;
   float: left;
 }
@@ -511,7 +488,6 @@ ul.ppt {
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
-
 }
 
 /* End of Custom CSS to change screen width that hamburger icon kicks in - fix for Ipad Mini and Ipad Air in Portrait Mode */
@@ -520,9 +496,8 @@ ul.ppt {
 /* Video and Google Maps sizing for desktop */
 
 iframe {
-  width: 100% !important;
-  height: 100% !important;
-
+  width: 100%;
+  height: 100% !important; 
 }
 
 /* Media queries to fix alignment issues on tablets (landscape and portait) */
@@ -561,7 +536,6 @@ iframe {
   .fa-trowel {
     padding-left: 20px;
   }
-
 }
 
 @media (min-width:768px) and (max-width:1399px) and (Orientation : Landscape) {
@@ -604,12 +578,10 @@ iframe {
   flex: 0 1 auto;
   /* Default */
   list-style-type: none;
-
 }
 
 .footer-item {
   color: white;
-
 }
 
 .footer-item i {
