@@ -439,6 +439,21 @@ ul.ppt {
   color:#4dae3c
 }
 
+#thanksbutton {
+  color:white;
+  background-color:rgb(15, 146, 15);
+  border-color: green;
+  margin-left: 6px;
+  }
+
+.display-3 {
+  font-family: "lobster";
+}
+
+.thankslink {
+  color: green;
+}
+
 /* CSS to remove default toggler icon and colour */
 
 .navbar-toggler:focus,
