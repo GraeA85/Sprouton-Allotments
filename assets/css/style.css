@@ -439,7 +439,7 @@ ul.ppt {
   color:#4dae3c
 }
 
-#thanksbutton {
+#thanksbutton, #button404 {
   color:white;
   background-color:rgb(15, 146, 15);
   border-color: green;
