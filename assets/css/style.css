@@ -439,20 +439,12 @@ ul.ppt {
   color:#4dae3c
 }
 
-#thanksbutton, {
+#thanksbutton {
   color:white;
-  background-color:rgb(15, 146, 15);
+  background-color: rgb(15, 146, 15);
   border-color: green;
   margin-left: 6px;
   }
-
-#button404
-    {
-    color:white;
-    background-color:rgb(15, 146, 15);
-    border-color: green;
-    }
-
 
 .display-3 {
   font-family: "lobster";
