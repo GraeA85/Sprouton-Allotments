@@ -241,7 +241,7 @@ The website contains no backend functionality therefore testing will concentrate
 * Testing the "growing list" link that should open up an external PDF file in a seperate tab.
 <br><br>
 
-## User Stories Testing
+* ## User Stories Testing
 
 ***
       1. As a user visiting the site for the first time, I want to navigate the site quickly and efficiently.
@@ -295,6 +295,10 @@ The website contains no backend functionality therefore testing will concentrate
       * Footer - Repeated steps on all pages.
         * Verify that the social media links open in a new tab.
         <br><br>
+
+  * ## Accessibilty testing
+***
+  In order to test for accessibility, I used the windows program NVDA. NVDA is a screen reader software which reads out the webpage for visually impaired users. It also reads out clickable items on the webpage, any links, image descriptors, forms and buttons. Using this software I visited the live version of the website and allowed the screen reader to run through the whole website. There were no issues with the website in terms of accessibility. From running the software I noticed the footer bar links did not read out as they are only represented by a font awesome icon. I then added aria-labels in for each link to ensure accessibiilty is maintained throughout the website. 
 
   ## Feedback from user testing
 ***
