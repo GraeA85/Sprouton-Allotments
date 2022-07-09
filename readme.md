@@ -153,7 +153,8 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 ***
  ![404](assets/images/404.png)
 <br><br>
-## Features to be Implemented in Future
+
+## Future Features
 ***
       * A members only section, allowing users to arrange seed-swaps, equipment loans etc.
       * Allotment shop - allowing users to buy online and collect their order when they are next on site, or have them delivered to their allotment.
