@@ -5,7 +5,7 @@
     * [First Time Visitor Goals](#First-Time-Visitor-Goals)
     * [Returning Visitor Goals](#Returning-Visitor-Goals)
     * [Frequent User Goals](#Frequent-Visitor-Goals)
-    - [Features](#Features)
+  * [Features](#Features)
     * [Existing Features](#Existing-Features)
     * [Future Features](#Features-Left-to-Implement)
   * [Design](#Design)
