@@ -5,6 +5,9 @@
     * [First Time Visitor Goals](#First-Time-Visitor-Goals)
     * [Returning Visitor Goals](#Returning-Visitor-Goals)
     * [Frequent User Goals](#Frequent-Visitor-Goals)
+    - [Features](#Features)
+    * [Existing Features](#Existing-Features)
+    * [Future Features](#Features-Left-to-Implement)
   * [Design](#Design)
     * [Colour Scheme](#Colour-Scheme)
     * [Typography](#Typography)
@@ -12,9 +15,6 @@
     * [Wireframes](#Wireframes)
     * [Differences to Design](Differences-to-Design)
 * [Limitations](#Limitations)
-- [Features](#Features)
-    * [Existing Features](#Existing-Features)
-    * [Future Features](#Features-Left-to-Implement)
 * [Technologies](#Technologies)
 * [Testing](#Testing)
     * [Test Strategy](#Test-Strategy)
@@ -81,7 +81,8 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 - As a Frequent user, I want to view the image gallery to see if my allotment is being showcased.
 <br><br>
 
-
+ ## Features
+ <br>
 
  ## Existing Features 
  ***
@@ -215,6 +216,8 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
     * Favicon.io was used to make the site favicon - the font icon itself was taken from Font Awesome.
 * [Techsini](http://techsini.com/multi-mockup/index.php)
     * tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image at the start of the README.
+* [NVDA](https://www.nvaccess.org/)
+    * NVDA screen reader software used to test the accessibility of the website
 
 <br>
 
