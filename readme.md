@@ -13,8 +13,6 @@
     * [Typography](#Typography)
     * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
-    * [Differences to Design](Differences-to-Design)
-* [Limitations](#Limitations)
 * [Technologies](#Technologies)
 * [Testing](#Testing)
     * [Test Strategy](#Test-Strategy)
