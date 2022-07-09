@@ -5,7 +5,6 @@
     * [First Time Visitor Goals](#First-Time-Visitor-Goals)
     * [Returning Visitor Goals](#Returning-Visitor-Goals)
     * [Frequent User Goals](#Frequent-Visitor-Goals)
-  * [Structure](#Structure)
   * [Design](#Design)
     * [Colour Scheme](#Colour-Scheme)
     * [Typography](#Typography)
@@ -73,7 +72,7 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 
 - As a Returning user, I want to apply for an allotment, if I haven't already.
 - As a Returning user, I want to contact the allotment owners to ask any questions I might have
-- As a returning user, I want to get a list of the equipment that I need and see what is avaiable to buy in the allotment shop.
+- As a returning user, I want to get a list of the equipment that I need and see what is available to buy in the allotment shop.
 
 ### Frequent Visitor Goals
 
@@ -81,15 +80,14 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 - As a Frequent user, I want to check what stock the allotment shop has or contact the allotment shop for them to order an item in for me.
 - As a Frequent user, I want to view the image gallery to see if my allotment is being showcased.
 <br><br>
-## Structure
-***
-<br>
 
-  ## Existing Features 
+
+
+ ## Existing Features 
+ ***
 <Br>
 
-
-### Navigation Bar
+* ### Navigation Bar
 ***
 ![Navbar](assets/images/navbar.png)
 <br><br>
@@ -298,9 +296,9 @@ The website contains no backend functionality therefore testing will concentrate
 
   * ## Accessibilty testing
 ***
-  In order to test for accessibility, I used the windows program NVDA. NVDA is a screen reader software which reads out the webpage for visually impaired users. It also reads out clickable items on the webpage, any links, image descriptors, forms and buttons. Using this software I visited the live version of the website and allowed the screen reader to run through the whole website. There were no issues with the website in terms of accessibility. From running the software I noticed the footer bar links did not read out as they are only represented by a font awesome icon. I then added aria-labels in for each link to ensure accessibiilty is maintained throughout the website. 
+  In order to test for accessibility, I used the windows program NVDA. NVDA is a screen reader software which reads out the webpage for visually impaired users. It also reads out clickable items on the webpage, any links, image descriptors, forms and buttons. Using this software I visited the live version of the website and allowed the screen reader to run through the whole website. There were no issues with the website in terms of accessibility. From running the software I noticed the footer bar links did not read out as they are only represented by a font awesome icon. I then added aria-labels in for each link to ensure accessibiilty is maintained throughout the website. The screen reader also highlighted the main buttons on the homepage (equipment list, growing list and allotment shop stock list) did not have appropriate labels - these were added accordingly.
 
-  ## Feedback from user testing
+  ## Feedback from User Testing
 ***
   The main piece of feedback from my user testing was in relation to the hamburger icon. Against UX design I have changed the icon to a plant rather than the traditional hamburger icon that people are familiar with. Some testers were not aware the plant represented a hambuger icon. To combat this, rather than changing the icon back to the traditional icon, I used the built in "beat" function that can be applied to font awesome icons. The icon now shows a "beating" animation which will draw the user to click the icon. Once the icon has been pressed, the icon stops beating, this was achieved using an "onclick" attribute on the icon which essentially removes the "fa-beat" from the span class once it has been opened. The beat will be re-applied if the user moves to another page or refreshes their current page, however the icon will have already achieved its intended purpose.
   <br><br>
