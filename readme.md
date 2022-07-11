@@ -64,7 +64,6 @@ Having recently acquired my own allotment and researching the topic, I have pres
 
 ## User Experience Design
 ***
-<br>
 
 ## User stories
 <br>
