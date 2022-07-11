@@ -1,5 +1,6 @@
 ## Table of Contents
 * [Purpose](#Purpose)
+* [Project Research](#project-research)
 * [User Experience Design (UX)](#User-Experience-Design)
   * [User stories](#User-Stories)
     * [First Time Visitor Goals](#First-Time-Visitor-Goals)
@@ -21,14 +22,17 @@
     * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
 * [Technologies](#Technologies)
-* [Testing](#testing)
+* [Test Strategy](#test-strategy)
+    * [User Stories Testing](#user-stories-testing)
     * [Manual Testing](#manual-testing)
-    * [Additional Testing](#additional-testing)
-    * [Resolved Bugs](#resolved-bugs)
+    * [Accessibility Testing](#accessibilty-testing)
+    * [Feedback from User Testing](#feedback-from-user-testing)
+    * [Validator Testing](#validator-testing)
+    * [Unfixed Bugs](#unfixed-bugs)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
+  * [Code](#Code)
   * [Content](#Content)
-  * [Media](#Media)
 <br><br>
 
 # Milestone Project One
@@ -168,17 +172,17 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 
 ## Design
 ***
-   * ## Colour Scheme
+   * ### Colour Scheme
       I wanted a colour scheme based around gardening colours - namely plant-greens and earthy browns. 
-  * ## Favicon 
+  * ### Favicon 
       I used the [Favicon.io](https://favicon.io/) website to create a favicon for my website. I wanted something simple and recognisable, related to gardening. I used font awesome for the icon and styled it - using favicon to produce the file.
-  * ## Typography
+  * ### Typography
       I wanted a cursive font for the website name/logo and subsequent headers through the page. I wanted a simple yet professional looking font for the paragraphs and other writings.
-  * ## Imagery
+  * ### Imagery
       All imagery was sourced from pexels.com or google images, ensuring they had appropriate commercial licenses.
 
       I opted for images to fit with the website purpose. I wanted images that showcased gardens, allotments, vegetables and images in-keeping with the website colour scheme.
-  * ## Layout
+  * ### Layout
       I decided on a multi-page layout rather than one single flowing page. The bulk of the website information is presented on the homepage, which is neatly displayed using a bootstrap template which I have customised with my own CSS. The image gallery is designed to showcase the allotments from the allotment site, as well as produce grown on site and other images from around the allotments. All images are aesthetically pleasing and fit with the scope of the website.
 <br><br>
 
@@ -248,7 +252,7 @@ The website contains no backend functionality therefore testing will concentrate
 * Testing the "growing list" link that should open up an external PDF file in a seperate tab.
 <br><br>
 
-* ## User Stories Testing
+### User Stories Testing
 
 ***
    1. As a user visiting the site for the first time, I want to navigate the site quickly and efficiently.
@@ -268,7 +272,7 @@ The website contains no backend functionality therefore testing will concentrate
    7. As a user, I want to be able to access your social media accounts.
    * A user can access the comapnies social media links via the footer in any of the pages that they find themselves on.
 <br><br>
-   * ## Manual Testing
+   ### Manual Testing
 ***
   * Navigation - Repeated steps on all pages.
       * Click on logo to confirm that it navigates to landing page.
@@ -303,16 +307,17 @@ The website contains no backend functionality therefore testing will concentrate
         * Verify that the social media links open in a new tab.
         <br><br>
 
-  * ## Accessibilty testing
+   ### Accessibilty testing
 ***
   In order to test for accessibility, I used the windows program NVDA. NVDA is a screen reader software which reads out the webpage for visually impaired users. It also reads out clickable items on the webpage, any links, image descriptors, forms and buttons. Using this software I visited the live version of the website and allowed the screen reader to run through the whole website. There were no issues with the website in terms of accessibility. From running the software I noticed the footer bar links did not read out as they are only represented by a font awesome icon. I then added aria-labels in for each link to ensure accessibiilty is maintained throughout the website. The screen reader also highlighted the main buttons on the homepage (equipment list, growing list and allotment shop stock list) did not have appropriate labels - these were added accordingly.
+<br><br>
 
-  ## Feedback from User Testing
+  ### Feedback from User Testing
 ***
   The main piece of feedback from my user testing was in relation to the hamburger icon. Against UX design I have changed the icon to a plant rather than the traditional hamburger icon that people are familiar with. Some testers were not aware the plant represented a hambuger icon. To combat this, rather than changing the icon back to the traditional icon, I used the built in "beat" function that can be applied to font awesome icons. The icon now shows a "beating" animation which will draw the user to click the icon. Once the icon has been pressed, the icon stops beating, this was achieved using an "onclick" attribute on the icon which essentially removes the "fa-beat" from the span class once it has been opened. The beat will be re-applied if the user moves to another page or refreshes their current page, however the icon will have already achieved its intended purpose.
   <br><br>
         
-## Validator Testing 
+### Validator Testing 
 ***
 - HTML
   - No errors were returned when passing through the official [W3C validator]
@@ -320,9 +325,9 @@ The website contains no backend functionality therefore testing will concentrate
   - No errors were found when passing through the official [(Jigsaw) validator]
 <br><br>
 
-## Unfixed Bugs
+### Unfixed Bugs
 ***
-There are no unfixed bugs present with the website. 
+There are no unfixed bugs present within the website. 
 <br><br>
 
 ## Deployment
@@ -336,24 +341,24 @@ Once the development process was well underway, the website was deployed to GitH
 The live link can be found here - https://graea85.github.io/Sprouton-Allotments/index.html
 
 ***
+<br>
+
 ## Credits
 <br>
 
-## Code
+### Code
 ***
 The html and CSS code for the form was taken from https://colorlib.com/wp/template/colorlib-regform-3/. I then used my own custom CSS to redesign it to fit in with my website design and layout. I changed the image to a gardening themed image, added further form boxes to be relevant to my website and increased the radius of the borders. The image from the form is removed on smaller screen sizes for better UX design principles.
 Bootstrap was used for all other code and styled using my own custom CSS. The home page layout is based on the bootstrap template at https://getbootstrap.com/docs/4.0/examples/carousel/ and styled with custom CSS.
 I referred to W3Schools and Stack Overflow when I encountered issues, which were primarily to do with layout issues and media queries. I have put in several custom media queries to deal with display issues on the IPad mini and Ipad Air, specifically in portrait mode.
 <br><br>
-## Content
-***
 
-### Media
+### Content
+***
 The images used in the project were all sourced from pexels.com or google images, ensuring they were available for commercial use.
 The YouTube video on the homepage is property of The National Allotment Society.
 The Google Maps API was created using google maps.
 
-### Content 
+All information presented on the website was created by me unless specified. The external PDF file from the Growing List was produced by Wares of Knutsford, all copyright information is present on the PDF.
 
-- All information presented on the website was created by me unless specified. The external PDF file from the Growing List was produced by Wares of Knutsford, all copyright information is present on the PDF.
-- All icons used on the website were taken from [Font Awesome](https://fontawesome.com/)
+All icons used on the website were taken from [Font Awesome](https://fontawesome.com/)
