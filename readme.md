@@ -7,7 +7,14 @@
     * [Frequent User Goals](#Frequent-Visitor-Goals)
   * [Features](#Features)
     * [Existing Features](#Existing-Features)
-    * [Future Features](#Features-Left-to-Implement)
+    * [Navigation Bar](#navigation-bar)
+    * [The Home Page](#the-home-page)
+    * [Image Gallery](#image-gallery)
+    * [Waiting list application page](#waiting-list-application-page)
+    * [Website Footer](#website-footer)
+    * [Form Acknowledgement Page](#form-acknowledgement-page)
+    * [404 Error Page](#404-error-page)
+    * [Future Features](#future-features)
   * [Design](#Design)
     * [Colour Scheme](#Colour-Scheme)
     * [Typography](#Typography)
@@ -23,6 +30,7 @@
   * [Content](#Content)
   * [Media](#Media)
 <br><br>
+
 # Milestone Project One
 <br>
 
@@ -37,18 +45,22 @@ The website is built using my own knowledge gained throughout the course of HTML
 
 ![Am I Responsive image of how the landing page looks across different browser sizes](assets/images/responsive.png)
 <br><br>
+
 ## Project Research 
 ***
 Having recently acquired my own allotment and researching the topic, I have presented the information in such a way that is ideal for beginners and less daunting compared to more "veteran" allotment websites. The knowledge presented is what I wish I had prior to having my own allotmment.
+<br><br>
 
-  * ### Research Analysis
-  
+ ### Research Analysis
+  ***
   There has been a massive increase of interest in allotment ownership, particularly through the pandemic. Waiting lists are a big thing for all allotment sites so encouraging people to sign up as early as possible will benefit them greatly as some waiting lists can be up to 10 years +
 <br><br>
+
 ## Sprouton Allotments
 ***
 Sprouton Allotments are a community run allotment site for veteran and beginner allotmenteers to create, grow and showcase their garden and allotment sites. The website is targeted at existing Sprouton Allotment owners to keep up to date with allotment developments, as well as budding gardeners hoping to get their hands dirty and jump into an allotment of their own. The website is designed to inform people about the allotment site, what can be done with an allotment and place themselves on a waiting list for an allotment in the future. 
 <br><br>
+
 ## User Experience Design
 
 ### User stories
@@ -64,7 +76,7 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 
 - As a Returning user, I want to apply for an allotment, if I haven't already.
 - As a Returning user, I want to contact the allotment owners to ask any questions I might have
-- As a returning user, I want to get a list of the equipment that I need and see what is available to buy in the allotment shop.
+- As a Returning user, I want to get a list of the equipment that I need and see what is available to buy in the allotment shop.
 
 ### Frequent Visitor Goals
 
