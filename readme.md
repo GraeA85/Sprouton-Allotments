@@ -64,7 +64,6 @@ Having recently acquired my own allotment and researching the topic, I have pres
 
 ## User Experience Design
 ***
-
 ## User stories
 <br>
 
@@ -90,9 +89,7 @@ Having recently acquired my own allotment and researching the topic, I have pres
 
  ## Features
  ***
-<br>
-
- ### Existing Features 
+ ## Existing Features 
 
 <Br>
 
@@ -341,22 +338,20 @@ Once the development process was well underway, the website was deployed to GitH
 - Once this was selected the page is automatically deployed and the external website link is presented. 
 
 The live link can be found here - https://graea85.github.io/Sprouton-Allotments/index.html
-
-***
-<br>
-
+<br><br>
 ## Credits
-<br>
-
-### Code
 ***
+<Br>
+
+* ### Code
+<br>
 The html and CSS code for the form was taken from https://colorlib.com/wp/template/colorlib-regform-3/. I then used my own custom CSS to redesign it to fit in with my website design and layout. I changed the image to a gardening themed image, added further form boxes to be relevant to my website and increased the radius of the borders. The image from the form is removed on smaller screen sizes for better UX design principles.
 Bootstrap was used for all other code and styled using my own custom CSS. The home page layout is based on the bootstrap template at https://getbootstrap.com/docs/4.0/examples/carousel/ and styled with custom CSS.
 I referred to W3Schools and Stack Overflow when I encountered issues, which were primarily to do with layout issues and media queries. I have put in several custom media queries to deal with display issues on the IPad mini and Ipad Air, specifically in portrait mode.
 <br><br>
 
-### Content
-***
+* ### Content
+<br>
 The images used in the project were all sourced from pexels.com or google images, ensuring they were available for commercial use.
 The YouTube video on the homepage is property of The National Allotment Society.
 The Google Maps API was created using google maps.
