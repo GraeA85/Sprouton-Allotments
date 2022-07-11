@@ -237,8 +237,9 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
 ***
 
  ### Testing
-    Testing for this website was done using the Microsoft Edge Browser and the built-in Chrome Developer Tools to check responsiveness on different screensizes and general debugging. Testing was also done on an iPhone 10 using Safari and Microsoft Edge. Testing was also carried out on a Microsoft Surface Pro 7 as I encountered some issues with landscape layout through the developer tools. No issues were found with responsiveness and previous issues have been dealt with through custom screen aspect media queries.
-    In addition to my own testing, I sent my website link to family and friends and asked for them to test the website out using the same methods listed below.
+  Testing for this website was done using the Microsoft Edge Browser and the built-in Chrome Developer Tools to check responsiveness on different screensizes and general debugging. Testing was also done on an iPhone 10 using Safari and Microsoft Edge. Testing was also carried out on a Microsoft Surface Pro 7 as I encountered some issues with landscape layout through the developer tools. No issues were found with responsiveness and previous issues have been dealt with through custom screen aspect media queries.
+  
+  In addition to my own testing, I sent my website link to family and friends and asked for them to test the website out using the same methods listed below.
 
 
 The website contains no backend functionality therefore testing will concentrate on:
