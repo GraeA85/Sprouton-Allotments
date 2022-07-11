@@ -1,5 +1,22 @@
+# Sprouton Allotments
+
+This website was created for the required Milestone Project One for the Code Institutes Web Development Course.
+
+The live website can be found [here](https://graea85.github.io/Sprouton-Allotments/index.html)
+
+I wanted to build a website to showcase a fictional allotment site, based in England. The website is designed to inform users about what is involved in owning an allotment, what a typical allotment site is like and guides on how to get started. The information and images present on the pages are designed in a way to make the website feel real. 
+The website is built using my own knowledge gained throughout the course of HTML and CSS, taking into account UX design at every step.
+<br><br>
+
+## Sprouton Allotments Overview
+***
+Sprouton Allotments are a community run allotment site for veteran and beginner allotmenteers to create, grow and showcase their garden and allotment sites. The website is targeted at existing Sprouton Allotment owners to keep up to date with allotment developments, as well as budding gardeners hoping to get their hands dirty and jump into an allotment of their own. The website is designed to inform people about the allotment site, what can be done with an allotment and place themselves on a waiting list for an allotment in the future. 
+<br><br>
+
+![Am I Responsive image of how the landing page looks across different browser sizes](assets/images/responsive.png)
+<br>
+
 ## Table of Contents
-* [Purpose](#Purpose)
 * [Project Research](#project-research)
 * [User Experience Design (UX)](#User-Experience-Design)
   * [User stories](#User-Stories)
@@ -35,21 +52,6 @@
   * [Content](#Content)
 <br><br>
 
-# Milestone Project One
-<br>
-
-## Purpose
-***
-This website was created for the required Milestone Project One for the Code Institutes Web Development Course.
-
-The live website can be found [here](https://graea85.github.io/Sprouton-Allotments/index.html)
-
-I wanted to build a website to showcase a fictional allotment site, based in England. The website is designed to inform users about what is involved in owning an allotment, what a typical allotment site is like and guides on how to get started. The information and images present on the pages are designed in a way to make the website feel real. 
-The website is built using my own knowledge gained throughout the course of HTML and CSS, taking into account UX design at every step.
-
-![Am I Responsive image of how the landing page looks across different browser sizes](assets/images/responsive.png)
-<br><br>
-
 ## Project Research 
 ***
 Having recently acquired my own allotment and researching the topic, I have presented the information in such a way that is ideal for beginners and less daunting compared to more "veteran" allotment websites. The knowledge presented is what I wish I had prior to having my own allotmment.
@@ -58,11 +60,6 @@ Having recently acquired my own allotment and researching the topic, I have pres
  ### Research Analysis
   ***
   There has been a massive increase of interest in allotment ownership, particularly through the pandemic. Waiting lists are a big thing for all allotment sites so encouraging people to sign up as early as possible will benefit them greatly as some waiting lists can be up to 10 years +
-<br><br>
-
-## Sprouton Allotments
-***
-Sprouton Allotments are a community run allotment site for veteran and beginner allotmenteers to create, grow and showcase their garden and allotment sites. The website is targeted at existing Sprouton Allotment owners to keep up to date with allotment developments, as well as budding gardeners hoping to get their hands dirty and jump into an allotment of their own. The website is designed to inform people about the allotment site, what can be done with an allotment and place themselves on a waiting list for an allotment in the future. 
 <br><br>
 
 ## User Experience Design
