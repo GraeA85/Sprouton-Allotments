@@ -111,6 +111,7 @@ Having recently acquired my own allotment and researching the topic, I have pres
 
   * The background image of the navigation bar is responsive and changes to a different image on smaller screens - this is for aesthetic reasons. I have applied a filter to the background image which allows for the links to easily stand out against the background and give the navigation bar a more professional look.
 <br><br>
+
 * ### The Home page
 ***
 
@@ -167,9 +168,9 @@ Having recently acquired my own allotment and researching the topic, I have pres
 
 * ### Future Features
 ***
-      * A members only section, allowing users to arrange seed-swaps, equipment loans etc.
-      * Allotment shop - allowing users to buy online and collect their order when they are next on site, or have them delivered to their allotment.
-<br>
+  * A members only section, allowing users to arrange seed-swaps, equipment loans etc.
+  * Allotment shop - allowing users to buy online and collect their order when they are next on site, or have them delivered to their allotment.
+<br><br>
 
 ## Design
 ***
