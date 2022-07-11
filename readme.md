@@ -341,7 +341,6 @@ The live link can be found here - https://graea85.github.io/Sprouton-Allotments/
 <br><br>
 ## Credits
 ***
-<Br>
 
 * ### Code
 <br>
