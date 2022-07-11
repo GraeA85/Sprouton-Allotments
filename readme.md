@@ -147,12 +147,14 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
  I decided to keep the footer simple with just the social media links present - colour is in-keeping with the website colour scheme.
  - The links are facebook, instagram, twiiter and YouTube. Copyright information is also displayed.
 <br><br>
+
  ## Form Acknowledgement Page
 ***
 ![thanks](assets/images/thanks.png)
 
  - The form acknowledge page appears once a user has completed the form with all required fields containing the correct information. The page is a simple acknowledgement to the user with links to contact the allotment site or return to the homepage.
 <br><br>
+
  ## 404 Error Page
 ***
  ![404](assets/images/404.png)
@@ -228,10 +230,9 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
 
 ## Test Strategy 
 ***
-<br>
 
  ### Testing
-    Testing for this website was done using the Microsoft Edge Browser, using  the built-in Chrome Developer Tools to check responsiveness on different screensizes. Testing was also done on an iPhone 10 using Safari and Microsoft Edge. Testing was also carried out on a Microsoft Surface Pro 7 as I encountered some issues with landscape layout through the developer tools. No issues were found with responsiveness and previous issues have been dealt with through custom screen aspect media queries.
+    Testing for this website was done using the Microsoft Edge Browser and the built-in Chrome Developer Tools to check responsiveness on different screensizes and general debugging. Testing was also done on an iPhone 10 using Safari and Microsoft Edge. Testing was also carried out on a Microsoft Surface Pro 7 as I encountered some issues with landscape layout through the developer tools. No issues were found with responsiveness and previous issues have been dealt with through custom screen aspect media queries.
     In addition to my own testing, I sent my website link to family and friends and asked for them to test the website out using the same methods listed below.
 
 
@@ -250,23 +251,23 @@ The website contains no backend functionality therefore testing will concentrate
 * ## User Stories Testing
 
 ***
-      1. As a user visiting the site for the first time, I want to navigate the site quickly and efficiently.
-         * Website visitor can navigate to the home page from any page in the website. This is either via the navigation menu, or the navbrand logo, as is standard on most websites.
-      2. As a user, I want to know a brief history and story about the allotment site, any committee/manager involvement of the allotment site and other useful information.
-         * Website visitor can browse the homepage which is broken up into sections. They are informed about the current allotment site, the committee team of the allotment, a site map of the allotment and other useful information about allotment ownership.
-         * There is further information provided in modals on the homepage, detailing equipment needed, an on site shop and external information about growing produce.
-      3. As a visitor, I want to view images of the allotment site and other related images such as vegetables grown on the site or the layout of other peoples allotments.
-         * The website visitor can visit the image gallery page to view images of allotments, fruit/vegetables and other peoples allotments.
-      4. As a visitor who is interested in owning an allotment, I wish to get on the waiting list for this allotment site.
-         * The website visitor can apply to join the waiting list using the waiting list page. The page requires the user to fill in mandatory fields and presents the user with an acknowledgement once complete.
-      5. As a user, I want to be able to contact the allotment site for further information without committing to the waiting list.
-         * A user can contact the allotment site from a link on the homepage. They can also contact the allotment site from the thank you page once they have signed up for the waiting list.
-         * A user can visit the allotment sites social media and contact the site via external means. These links are present in the footer bar on each page.
-      6. As a website visitor, I want to know what items are available for sale in the on-site allotment shop. 
-         * A visitor can click the allotment shop link on the home page and be presented with a current shop stock list and pricing.
-      7. As a user, I want to be able to access your social media accounts.
-         * A user can access the comapnies social media links via the footer in any of the pages that they find themselves on.
-
+   1. As a user visiting the site for the first time, I want to navigate the site quickly and efficiently.
+   * Website visitor can navigate to the home page from any page in the website. This is either via the navigation menu, or the navbrand logo, as is standard on most websites.
+   2. As a user, I want to know a brief history and story about the allotment site, any committee/manager involvement of the allotment site and other useful information.
+   * Website visitor can browse the homepage which is broken up into sections. They are informed about the current allotment site, the committee team of the allotment, a site map of the allotment and other useful information about allotment ownership.
+   * There is further information provided in modals on the homepage, detailing equipment needed, an on site shop and external information about growing produce.
+   3. As a visitor, I want to view images of the allotment site and other related images such as vegetables grown on the site or the layout of other peoples allotments.
+   * The website visitor can visit the image gallery page to view images of allotments, fruit/vegetables and other peoples allotments.
+   4. As a visitor who is interested in owning an allotment, I wish to get on the waiting list for this allotment site.
+   * The website visitor can apply to join the waiting list using the waiting list page. The page requires the user to fill in mandatory fields and presents the user with an acknowledgement once complete.
+   5. As a user, I want to be able to contact the allotment site for further information without committing to the waiting list.
+   * A user can contact the allotment site from a link on the homepage. They can also contact the allotment site from the thank you page once they have signed up for the waiting list.
+   * A user can visit the allotment sites social media and contact the site via external means. These links are present in the footer bar on each page.
+   6. As a website visitor, I want to know what items are available for sale in the on-site allotment shop. 
+   * A visitor can click the allotment shop link on the home page and be presented with a current shop stock list and pricing.
+   7. As a user, I want to be able to access your social media accounts.
+   * A user can access the comapnies social media links via the footer in any of the pages that they find themselves on.
+<br><br>
    * ## Manual Testing
 ***
   * Navigation - Repeated steps on all pages.
@@ -318,10 +319,12 @@ The website contains no backend functionality therefore testing will concentrate
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator]
 <br><br>
+
 ## Unfixed Bugs
 ***
 There are no unfixed bugs present with the website. 
 <br><br>
+
 ## Deployment
 ***
 Once the development process was well underway, the website was deployed to GitHub pages. In order to achieve this I: 
