@@ -66,8 +66,11 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 <br><br>
 
 ## User Experience Design
+***
+<br>
 
-### User stories
+## User stories
+<br>
 
 #### First Time Visitor Goals
 
@@ -90,13 +93,14 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 <br><br>
 
  ## Features
- <br>
-
-* ## Existing Features 
  ***
+<br>
+
+ ### Existing Features 
+
 <Br>
 
-  ### Navigation Bar
+ * ### Navigation Bar
 ***
 ![Navbar](assets/images/navbar.png)
 <br><br>
@@ -110,7 +114,7 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
 
   * The background image of the navigation bar is responsive and changes to a different image on smaller screens - this is for aesthetic reasons. I have applied a filter to the background image which allows for the links to easily stand out against the background and give the navigation bar a more professional look.
 <br><br>
-### The Home page
+* ### The Home page
 ***
 
 ![Homepage](assets/images/homepage.png)
@@ -127,7 +131,7 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
   - The Home page is fully responsive.
 <br><br>
 
-### Image Gallery
+* ### Image Gallery
 ***
 ![gallery](assets/images/gallery.png)
 
@@ -136,14 +140,14 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
   - The image are presented in a visually appealing grid box which is fully responsive (webpage is scrollable).
    <br><br>
 
-### Waiting list application page
+* ### Waiting list application page
 ***
 ![apply](assets/images/apply.png)
 
 
   - This page of the site allows the site visitor to apply to join the waiting list for Sprouton allotments. It includes a relevant image (soil in a heart shape being held) with a form to gather the prospective owners information. The form is fully responsive. For design purposes, the image disappears on smaller screens so the form is the main focus for the user. The form makes use of the "required" attribute to ensure all required information is inputted by the user. Once complete the user can click the submit button which will take the user to a "thank you" page. The thank you page is included to provide feedback to the user that their request has been acknowledged. The thank you page opens in a new browser tab to prevent the user losing their place on the main website - it also includes links to return to the homepage or further information on contacting the allotment site owners.
   <br><br>
-### Website Footer
+* ### Website Footer
 ***
 ![footer](assets/images/footer.png)
 
@@ -152,19 +156,19 @@ Sprouton Allotments are a community run allotment site for veteran and beginner 
  - The links are facebook, instagram, twiiter and YouTube. Copyright information is also displayed.
 <br><br>
 
- ## Form Acknowledgement Page
+* ### Form Acknowledgement Page
 ***
 ![thanks](assets/images/thanks.png)
 
  - The form acknowledge page appears once a user has completed the form with all required fields containing the correct information. The page is a simple acknowledgement to the user with links to contact the allotment site or return to the homepage.
 <br><br>
 
- ## 404 Error Page
+* ### 404 Error Page
 ***
  ![404](assets/images/404.png)
 <br><br>
 
-## Future Features
+* ### Future Features
 ***
       * A members only section, allowing users to arrange seed-swaps, equipment loans etc.
       * Allotment shop - allowing users to buy online and collect their order when they are next on site, or have them delivered to their allotment.
