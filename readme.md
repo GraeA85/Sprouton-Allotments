@@ -99,7 +99,7 @@ Having recently acquired my own allotment and researching the topic, I have pres
 <br><br>
 ![Navbarmobile](assets/images/navbarmobile.png) ![navbaropen](assets/images/navbaropen.png)
 <br><br>
-  * The navigation bar is present across all three pages of the Sprouton Allotment website. It is fully responsive and includes links to the home page, image gallery and the waiting list application page. The navigation bar is in a fixed position therefore always visible to the user when scrolling the page. This is effective UX design, preventing the user to have to scroll back to the top of the page manually, or rely on auto-scoll buttons placed on the website.
+  * The navigation bar is present across all three pages of the Sprouton Allotment website. It is fully responsive and includes links to the home page, image gallery and the waiting list application page. The navigation bar is in a fixed position therefore always visible to the user when scrolling the page. This is effective UX design, preventing the user to have to scroll back to the top of the page manually, or rely on auto-scroll buttons placed on the website.
   
   * The navigation bar shrinks to a "hamburger" icon and presents the links in a drop-down menu when the website is viewed on smaller screens such as a mobile phone or smaller tablet. I have changed the default hamburger icon to a plant related font awesome icon, in-keeping with the page design. This may be against UX design as users are familiar with the default hamburger icon. This was confirmed in user testing, however to add interactivity to the website I decided to keep the icon and make it "beat" so users will be attracted to click it. The animation stops once the button is pressed.
 
@@ -115,7 +115,7 @@ Having recently acquired my own allotment and researching the topic, I have pres
 
 
   - The Home page is broken up into sections. The first section is "Our Allotment Story" giving the user some background and current information regarding the allotment site. It also includes an embedded google map to show the location of the Allotment Site. I have used font awesome icons relevant to each section (the story book icon to represent the background story of the allotment site).
-  The second section introduces the website visitor to the allotment committee - briefly explaining their role, names and contact information. I have included a photograph to allow existing site owners to recognise the committee members whenever they meet in person. This also gives new visitors to the site a prosepective of the owners and the mutual ideals of the allotment site. 
+  The second section introduces the website visitor to the allotment committee - briefly explaining their role, names and contact information. I have included a photograph to allow existing site owners to recognise the committee members whenever they meet in person. This also gives new visitors to the site a prospective of the owners and the mutual ideals of the allotment site. 
   Each section is succinct as to give the user enough information without information overload.
   The third section of the website is about the allotment site itself. Giving the website user information on the number of allotments available, the sizes available and other important details about the site. This is accompanied by an image of the allotment site layout which gives new users their bearings and existing owners a handy map. 
   The fourth section gives the user information on the benefits of owning an allotment. I have included a video produced by the National Allotment Society, showcasing the benefits. This is included as to persuade new users to sign up for an allotment and remind existing owners about the numerous benefits of allotment ownership.
@@ -131,7 +131,7 @@ Having recently acquired my own allotment and researching the topic, I have pres
 
 
   - The image gallery page includes photographs of the allotment site, produce grown on the allotment and other relevant photos designed to visually explain the allotment site and encourage people to join the waiting list. 
-  - The image are presented in a visually appealing grid box which is fully responsive (webpage is scrollable).
+  - The images are presented in a visually appealing grid box which is fully responsive (webpage is scrollable).
    <br><br>
 
 * ### Waiting list application page
@@ -147,7 +147,7 @@ Having recently acquired my own allotment and researching the topic, I have pres
 
  - The footer present on each page of the website includes links to Sprouton Allotments social media pages. Each link will open in a new tab to allow the user to easily switch between the two and not lose their original position on the Sprouton Allotments website.
  I decided to keep the footer simple with just the social media links present - colour is in-keeping with the website colour scheme.
- - The links are facebook, instagram, twiiter and YouTube. Copyright information is also displayed.
+ - The links are facebook, instagram, twitter and YouTube. Copyright information is also displayed.
 <br><br>
 
 * ### Form Acknowledgement Page
@@ -206,13 +206,13 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
 * [Font Awesome](https://fontawesome.com/)
 	* Font awesome icons are present throughout the website - the Navbar Brand (site logo) is prefixed with a font awesome icon. Each section of the homepage uses a font awesome icon relevant to each piece of content. The icons for the bottom section of the home page each use a font awesome icon. The footer present on each page also uses font awesome icons for each of the social media links. 
 * [Google Fonts](https://fonts.google.com/)
-	* Google fonts are used thourhgout the website and are linked to in the page head. The fonts used are  *Lobster* and *IBM Plex Sans.* 
+	* Google fonts are used throughout the website and are linked to in the page head. The fonts used are  *Lobster* and *IBM Plex Sans.* 
 * [GitHub](https://github.com/)
 	* GitHub was the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
 * [Gitpod](https://git-scm.com/)
 	* Git was used to create and edit all code used to build the website and store assets. It also functions as version control software to commit and push code to the GitHub repository where the source code is stored.
 * [TinyJPG](https://tinyjpg.com/)
-	* TinyJPG is used to reduce the file sizes of images before being deployed to reduce storage and bandwith. Used on all images in the image gallery.
+	* TinyJPG is used to reduce the file sizes of images before being deployed to reduce storage and bandwidth. Used on all images in the image gallery.
 * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles. Allows the testing of features/code without editing of your own HTML/CSS.
 * [balsamiq Wireframes](https://balsamiq.com/wireframes/)
@@ -241,14 +241,14 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
 
 The website contains no backend functionality therefore testing will concentrate on:
 
-* Testing navigational links on each seperate page, as well as the site logo which is designed to redirect to the home page
+* Testing navigational links on each separate page, as well as the site logo which is designed to redirect to the home page
 * Testing the responsiveness of the website, making sure the layout and navigational features remain user friendly with UX design maintained
 * Testing of the form to ensure it functions correctly and does not allow an incomplete entry.
 * Testing the form takes the user to the "thank you" page
 * Testing out the "404" page if somehow the user manually keys in the website wrong or finds a broken link
 * Testing the modals work correctly and display at all resolution breakpoints
 * Testing the YouTube and Google map API links work correctly
-* Testing the "growing list" link that should open up an external PDF file in a seperate tab.
+* Testing the "growing list" link that should open up an external PDF file in a separate tab.
 <br><br>
 
 ### User Stories Testing
@@ -269,7 +269,7 @@ The website contains no backend functionality therefore testing will concentrate
    6. As a website visitor, I want to know what items are available for sale in the on-site allotment shop. 
    * A visitor can click the allotment shop link on the home page and be presented with a current shop stock list and pricing.
    7. As a user, I want to be able to access your social media accounts.
-   * A user can access the comapnies social media links via the footer in any of the pages that they find themselves on.
+   * A user can access the allotment site social media links via the footer in any of the pages that they find themselves on.
 <br><br>
    ### Manual Testing
 ***
@@ -296,7 +296,7 @@ The website contains no backend functionality therefore testing will concentrate
         * Verify that the form works correctly - all required fields give a prompt if not correctly completed. Verify once form is completed and submitted that the user is taken to the acknowledgement page.
         <br><br>
       * Thank you page
-        * Verify that page displays correctly, ackowledging the users form input.
+        * Verify that page displays correctly, acknowledging the users form input.
         * Verify that the user can navigate back to the home page from the acknowledgement page.
         <br><br>
       * 404 page
@@ -306,14 +306,14 @@ The website contains no backend functionality therefore testing will concentrate
         * Verify that the social media links open in a new tab.
         <br><br>
 
-   ### Accessibilty testing
+   ### Accessibility testing
 ***
   In order to test for accessibility, I used the windows program NVDA. NVDA is a screen reader software which reads out the webpage for visually impaired users. It also reads out clickable items on the webpage, any links, image descriptors, forms and buttons. Using this software I visited the live version of the website and allowed the screen reader to run through the whole website. There were no issues with the website in terms of accessibility. From running the software I noticed the footer bar links did not read out as they are only represented by a font awesome icon. I then added aria-labels in for each link to ensure accessibiilty is maintained throughout the website. The screen reader also highlighted the main buttons on the homepage (equipment list, growing list and allotment shop stock list) did not have appropriate labels - these were added accordingly.
 <br><br>
 
   ### Feedback from User Testing
 ***
-  The main piece of feedback from my user testing was in relation to the hamburger icon. Against UX design I have changed the icon to a plant rather than the traditional hamburger icon that people are familiar with. Some testers were not aware the plant represented a hambuger icon. To combat this, rather than changing the icon back to the traditional icon, I used the built in "beat" function that can be applied to font awesome icons. The icon now shows a "beating" animation which will draw the user to click the icon. Once the icon has been pressed, the icon stops beating, this was achieved using an "onclick" attribute on the icon which essentially removes the "fa-beat" from the span class once it has been opened. The beat will be re-applied if the user moves to another page or refreshes their current page, however the icon will have already achieved its intended purpose.
+  The main piece of feedback from my user testing was in relation to the hamburger icon. Against UX design I have changed the icon to a plant rather than the traditional hamburger icon that people are familiar with. Some testers were not aware the plant represented a hamburger icon. To combat this, rather than changing the icon back to the traditional icon, I used the built in "beat" function that can be applied to font awesome icons. The icon now shows a "beating" animation which will draw the user to click the icon. Once the icon has been pressed, the icon stops beating, this was achieved using an "onclick" attribute on the icon which essentially removes the "fa-beat" from the span class once it has been opened. The beat will be re-applied if the user moves to another page or refreshes their current page, however the icon will have already achieved its intended purpose.
   <br><br>
         
 ### Validator Testing 
