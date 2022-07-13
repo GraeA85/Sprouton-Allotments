@@ -332,7 +332,7 @@ There are no unfixed bugs present within the website.
 ### 404 Page Test
 ***
 For the purposes of allowing the website reviewer to see the 404 page, the "email us" link on the home page purposely links to this. It would open up an email program to allow website users to email the allotment site otherwise.
-
+<br><br>
 ## Deployment
 ***
 Once the development process was well underway, the website was deployed to GitHub pages. In order to achieve this I: 
